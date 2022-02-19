@@ -1,13 +1,14 @@
 {
-	"root": true,
-	"extends": "next",
-	"rules": {
-		"no-unsaved-vars":[
-			"error",
-			{
-				"argsIgnorePattern": "^_",
-				"varsIgnorePattern": "^_"
-			}
-		]
-	}
+  "root": true,
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": 0
+    // "no-unsaved-vars": [
+    //   "error",
+    //   {
+    //     "argsIgnorePattern": "^_",
+    //     "varsIgnorePattern": "^_"
+    //   }
+    // ]
+  }
 }

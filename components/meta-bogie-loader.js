@@ -11,7 +11,7 @@ export const BogieSpinner = () => (
     mt="calc(0px - var(--spinner-size))"
   />
 )
-
+// eslint-disable-next-line react/display-name
 export const BogieContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
@@ -26,13 +26,14 @@ export const BogieContainer = forwardRef(({ children }, ref) => (
     {children}
   </Box>
 ))
-
-const Loader = () => {
-  return (
-    <BogieContainer>
-      <BogieSpinner />
-    </BogieContainer>
-  )
+function Loader() {
+  return function BogieContained(BogieSpinner) {
+    return (
+      <BogieContainer>
+        <BogieSpinner />
+      </BogieContainer>
+    )
+  }
 }
 
 export default Loader

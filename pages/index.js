@@ -1,3 +1,4 @@
+/*eslint no-unused-vars: "error"*/
 import NextLink from 'next/link'
 import {
   Container,
@@ -13,8 +14,7 @@ import {
   PopoverHeader,
   PopoverBody,
   PopoverArrow,
-  PopoverCloseButton,
-  Tooltip
+  PopoverCloseButton
 } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -93,13 +93,13 @@ const Page = () => {
             i r creative innovator based on net, conceptualising delightful
             visual experiences for all that in-turn empower &amp; engage users.
             currently working on projects, in{' '}
-            <NextLink href="https://dsc.gg/entrypoint">
+            <NextLink href="https://dsc.gg/entrypoint" passHref>
               <Link>An🎙️Entrypoint</Link>
             </NextLink>
             .
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="/works" passHref>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 ｆｏｌｉｏ
               </Button>
