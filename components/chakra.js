@@ -25,3 +25,4 @@ export async function getServerSideProps({ req }) {
     }
   }
 }
+//naruto where is the cookie?

@@ -37,3 +37,4 @@ function Loader() {
 }
 
 export default Loader
+//bruh next ~ react is long affffff but i do like them alot...maybe not as much as svelte but RIOT is the winner

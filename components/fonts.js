@@ -4,3 +4,5 @@ const Fonts = () => (
   `}</style>
 )
 export default Fonts
+
+//oh wow this surely needs to be a component

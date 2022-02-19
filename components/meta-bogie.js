@@ -153,3 +153,4 @@ const MetaBogie = () => {
 }
 
 export default MetaBogie
+//this was probs my fav .js to write simply bc of the last line hehe

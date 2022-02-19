@@ -38,3 +38,4 @@ const Logo = () => {
   )
 }
 export default Logo
+//awww yeah ish ya boi...in component form

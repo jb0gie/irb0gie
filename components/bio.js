@@ -10,3 +10,4 @@ export const BioYear = styled.span`
   font-weight: bold;
   margin-right: 1em;
 `
+//bruh no cap i remember my broski praise jeeves 🤣 told me about styled components and i was like whaaaaaaa but they litty af!!
