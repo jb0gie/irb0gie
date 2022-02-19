@@ -143,7 +143,7 @@ const Page = () => {
             <Link href="https://www.youtube.com/embed/yGxexLnakQ4">
               Dancing 🕺🏾💃🏾
             </Link>
-            , Filmography🤳🏾🎞️, Travel✈️🏝️, Games🕹️🏓, Reading📖📚, Podcasts🗣️🎙️
+            , Filmography🤳🏾🎞️, Travel✈️🏝️, Games🕹️🏓, Writing📝📚, Podcasts🗣️🎙️
           </Paragraph>
         </Section>
       </Container>
