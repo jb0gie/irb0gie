@@ -79,15 +79,6 @@ const MetaBogie = () => {
       controls.target = target
       setControls(controls)
 
-      // loadGLTFModel(scene, '/vlogspot.glb', {
-      //   receiveShadow: false,
-      //   castShadow: false
-      // }).then(() => {
-
-      //   animate()
-      //   setLoading(false)
-      // })
-
       const dracoLoader = new DRACOLoader()
       dracoLoader.setDecoderPath('three/examples/js/libs/draco')
 
@@ -98,14 +89,9 @@ const MetaBogie = () => {
         function (gltf) {
           const model = gltf.scene
           model.position.set(1, 1, 0)
-          // model.scale.set(0.01, 0.01, 0.01)
-
           mixer = new THREE.AnimationMixer(model)
-
           scene.add(model)
-
           const animations = gltf.animations
-
           mixer.clipAction(animations[1]).play()
           animate()
           setLoading(false)
