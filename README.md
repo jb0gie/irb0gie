@@ -2,7 +2,7 @@
 
 > it's my site yo
 
-🚀DEMO: https://pending 
+🚀DEMO: https://irb0gie.vercel.app/
 
 This is built w/ [next](https://nextjs.org/) + [three](https://threejs.org/) & [chakraUI](https://chakra-ui.com/)
 
