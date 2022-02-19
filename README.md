@@ -4,7 +4,7 @@
 
 🚀DEMO: https://pending 
 
-This is built w/ [next](https://nextjs.org/) +[three](https://threejs.org/) & [chakraUI](https://chakra-ui.com/)
+This is built w/ [next](https://nextjs.org/) + [three](https://threejs.org/) & [chakraUI](https://chakra-ui.com/)
 
 Also has a custom [glTF](https://www.khronos.org/gltf/) in there 😅
 
