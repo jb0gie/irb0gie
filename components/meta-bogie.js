@@ -3,7 +3,6 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader'
-// import { loadGLTFModel } from '../libs/model'
 import { BogieSpinner, BogieContainer } from './meta-bogie-loader'
 
 let mixer
