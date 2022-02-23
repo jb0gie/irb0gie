@@ -37,7 +37,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          ｉ　ｒ　ｇｅｎｉｅ🧞⊸ｒｅａｌｉｓｔ。
+          ｉｒｇｅｎｉｅ🧞⊸ｒｅａｌｉｓｔ。
           <br />
           ｂａｓｅｄ　ｏｎ　ｎｅｔ。
         </Box>
@@ -47,7 +47,7 @@ const Page = () => {
               ｂ０ｇｉｅ/ˈbəʊ.ɡi/
             </Heading>
             <p>
-              ｓｏｍｅｔｈｉｎｇ　ｔｈａｔ　ｃａｕｓｅｓ　ｆｅａｒ　ｉｎ　ｍａｎｙ　ｐｐｌ。
+              ｓｏｍｅｔｉｎｇ　ｔｈａｔ　ｃａｕｓｅｓ　ｆｅａｒ　ｉｎ　ｍａｎｙ　ｐｐｌ。
               ｏｆｔｅｎ　ｗｉｔｈｏｕｔ ｒａｉｓｉｎ。
             </p>
           </Box>
@@ -79,7 +79,7 @@ const Page = () => {
                   </Heading>
                 </PopoverHeader>
                 <PopoverBody>
-                  <p>ｂｙ　Ｙａｍｉ。</p>
+                  <p>by Yami.</p>
                 </PopoverBody>
               </PopoverContent>
             </Popover>
@@ -90,7 +90,7 @@ const Page = () => {
             📀ＥｘＰ。
           </Heading>
           <Paragraph>
-            i r creative innovator based on net, conceptualising delightful
+            ircreative innovattive free thinker, conceptualising delightful
             visual experiences for all that in-turn empower &amp; engage users.
             currently working on projects, in{' '}
             <NextLink href="https://dsc.gg/entrypoint" passHref>
