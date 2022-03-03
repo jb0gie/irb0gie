@@ -17,14 +17,8 @@ const MetaBogie = () => {
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
-  const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0))
-  const [initialCameraPosition] = useState(
-    new THREE.Vector3(
-      20 * Math.sin(0.2 * Math.PI),
-      5,
-      20 * Math.cos(0.2 * Math.PI)
-    )
-  )
+  const [target] = useState(new THREE.Vector3(0, 0, 0))
+  const [initialCameraPosition] = useState(new THREE.Vector3(0, 0, 5))
   const [scene] = useState(new THREE.Scene())
   const [_controls, setControls] = useState()
 
@@ -58,14 +52,6 @@ const MetaBogie = () => {
       // 640 -> 240
       // 8   -> 6
       const scale = scH * 0.005 + 4.8
-      // const camera = new THREE.OrthographicCamera(
-      //   -scale,
-      //   scale,
-      //   scale,
-      //   -scale,
-      //   0.01,
-      //   50000
-      // )
       const camera = new THREE.PerspectiveCamera(45, scW / scH, 0.01, 50000)
       camera.position.copy(initialCameraPosition)
       camera.lookAt(target)
@@ -85,14 +71,12 @@ const MetaBogie = () => {
       const loader = new GLTFLoader()
       loader.setDRACOLoader(dracoLoader)
       loader.load(
-        '/vlogspot.glb',
+        '/b0gie.glb',
         function (gltf) {
           const model = gltf.scene
-          model.position.set(1, 1, 0)
+          model.position.set(0, 0, 0)
           mixer = new THREE.AnimationMixer(model)
           scene.add(model)
-          const animations = gltf.animations
-          mixer.clipAction(animations[1]).play()
           animate()
           setLoading(false)
         },
@@ -117,11 +101,12 @@ const MetaBogie = () => {
           const p = initialCameraPosition
           const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
 
-          camera.position.y = 10
+          camera.position.y = 1
           camera.position.x =
             p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)
           camera.position.z =
             p.z * Math.cos(rotSpeed) - p.x * Math.sin(rotSpeed)
+
           camera.lookAt(target)
         } else {
           controls.update()
