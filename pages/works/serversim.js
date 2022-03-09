@@ -8,6 +8,7 @@ const Work = () => (
   <Layout title="Inkdrop">
     <Container>
       <Title>
+        Server Repair Sim | a virtualised concept training solution.
         <Badge>２０１８⊸２０１９</Badge>
       </Title>
       <P>

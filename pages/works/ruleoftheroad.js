@@ -8,12 +8,10 @@ const Work = () => (
   <Layout title="Inkdrop">
     <Container>
       <Title>
+        Rule of the road | an interactive Rule of the Road concept demonstator.
         <Badge>２０１７⊸２０１８</Badge>
       </Title>
-      <P>
-        A Markdown note-taking app with 100+ plugins, cross-platform and
-        encrypted data sync support. The life-time revenue is more than $200k.
-      </P>
+      <P>My manager</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>

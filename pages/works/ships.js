@@ -8,11 +8,16 @@ const Work = () => (
   <Layout title="Inkdrop">
     <Container>
       <Title>
-        <Badge>２０１６</Badge>
+        Ship app | a native android app.<Badge>２０１６</Badge>
       </Title>
       <P>
-        A Markdown note-taking app with 100+ plugins, cross-platform and
-        encrypted data sync support. The life-time revenue is more than $200k.
+        My manager approached me asking if we had the capability to develop
+        apps.
+      </P>
+      <P>
+        Having experience developing native android apps prior, I jumped at the
+        oppurtunity to get some more practice in as well as show off what we
+        were capable of.
       </P>
       <List ml={4} my={4}>
         <ListItem>
