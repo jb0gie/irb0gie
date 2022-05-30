@@ -66,8 +66,8 @@ const Page = () => {
                   maxWidth="100px"
                   display="inline-block"
                   borderRadius="full"
-                  src="images/avi.jpg"
-                  alt="b0gie by Yami"
+                  src="images/avi.png"
+                  alt="m3tab0gie"
                 />
               </PopoverTrigger>
               <PopoverContent zIndex={4}>
@@ -87,16 +87,33 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h2" variant="section-title">
-            📀ＥｘＰ。
+            📀ＥＸＰ。
           </Heading>
           <Paragraph>
-            ircreative innovattive free thinker, conceptualising delightful
+            i r　creative innovattive free thinker, conceptualising delightful
             visual experiences for all that in-turn empower &amp; engage users.
             currently working on projects, in{' '}
             <NextLink href="https://dsc.gg/entrypoint" passHref>
               <Link>An🎙️Entrypoint</Link>
             </NextLink>
             .
+          </Paragraph>
+          <Paragraph>
+            i r find <code>alt-cord</code>a.k.a.{' '}
+            <NextLink href="https://guilded.gg" passHref>
+              <Link>Guilded</Link>
+            </NextLink>
+            .{' '}
+            i r has a{' '}
+            <NextLink href="https://www.guilded.gg/r/zzNRgkYnvR?i=dVbZbQ5d" passHref>
+              <Link>bungalow</Link>
+            </NextLink>{' '}
+            i made a test but i've grown quite organised since using it. i r tink this is 
+            bc with cord you can only truly enjoy it when you has nitro...which is a scam.
+            i r telegram OG.{' '}
+            <NextLink href="https://t.me/probablentry" passHref>
+              <Link><code>@probablentry</code></Link>
+            </NextLink>
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works" passHref>
@@ -131,7 +148,7 @@ const Page = () => {
             </a>
           </BioSection>
           <BioSection>
-            <BioYear>ｒｉｇｈｔ　ｎｏｗ</BioYear> Within the momemt.
+            <BioYear>ｒｉｇｈｔ　ｎｏｗ</BioYear> Within the momemt. 🧘🏾
           </BioSection>
         </Section>
         <Section delay={0.3}>
@@ -143,7 +160,7 @@ const Page = () => {
             <Link href="https://www.youtube.com/embed/yGxexLnakQ4">
               Dancing 🕺🏾💃🏾
             </Link>
-            , Filmography🤳🏾🎞️, Travel✈️🏝️, Games🕹️🏓, Writing📝📚, Podcasts🗣️🎙️
+            , Filmography🤳🏾🎞️, Travel✈️🏝️, Games🕹️🏓, Writing📝📚, <Link href="https://www.youtube.com/watch?v=tb6bUYpM1_0">Podcasts🗣️🎙️</Link>
           </Paragraph>
         </Section>
       </Container>

@@ -71,7 +71,7 @@ const MetaBogie = () => {
       const loader = new GLTFLoader()
       loader.setDRACOLoader(dracoLoader)
       loader.load(
-        '/b0gie.glb',
+        '/m3tab0gie.glb',
         function (gltf) {
           const model = gltf.scene
           model.position.set(0, 0, 0)

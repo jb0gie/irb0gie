@@ -19,9 +19,16 @@ const Works = () => (
       {/* current */}
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="cordkilla" title="cordkilla" thumbnail={pendingThumb}>
+          <WorkGridItem id="kin" title="kin savior of humanity" thumb={kinThumb}>
+            My greatest achievement(s) to-date: the creation of a Kin savior of humanity.
+            A solar punk Alien who is able to save humanity from the destruction of the nefarious 
+            Moloch. The Avatars are the most effort thing i've done so far.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="hyper-webchat" title="hyper-webchat" thumbnail={pendingThumb}>
             ＹＡｉｂＥｎｔ project - Yet another <code>internet breaking</code>{' '}
-            Entrypoint project
+            Entrypoint project 
           </WorkGridItem>
         </Section>
         <Section>
@@ -59,7 +66,7 @@ const Works = () => (
             thumbnail={metagameThumb}
           >
             A Massive Online Coordination Game: i've been playing this game for
-            a while now, making{' '}
+            almost 2 years, making{' '}
             <Link href="https://youtu.be/Kr9Hdt6afPw">videos</Link> like this
             one.
           </WorkGridItem>
