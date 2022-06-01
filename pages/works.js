@@ -18,13 +18,13 @@ const Works = () => (
       </Heading>
       {/* current */}
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
+        {/* <Section>
           <WorkGridItem id="kin" title="kin savior of humanity" thumb={kinThumb}>
             My greatest achievement(s) to-date: the creation of a Kin savior of humanity.
             A solar punk Alien who is able to save humanity from the destruction of the nefarious 
             Moloch. The Avatars are the most effort thing i've done so far.
           </WorkGridItem>
-        </Section>
+        </Section> */}
         <Section>
           <WorkGridItem id="hyper-webchat" title="hyper-webchat" thumbnail={pendingThumb}>
             ＹＡｉｂＥｎｔ project - Yet another <code>internet breaking</code>{' '}
