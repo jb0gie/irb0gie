@@ -21,7 +21,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>
-          <Link target="_blank" href="https://testingitall.my.canva.site/">
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href="https://testingitall.my.canva.site/"
+          >
             Homepage
             <ExternalLinkIcon mx="2px" />
           </Link>
@@ -38,6 +42,7 @@ const Work = () => (
           <Meta>Blogpost</Meta>
           <Link
             target="_blank"
+            rel="noreferrer"
             href="https://gitcoin.co/grants/5090/ourverse-and-the-solarpunk-awakening"
           >
             Gitcoin grant

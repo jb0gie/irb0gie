@@ -13,7 +13,7 @@ const Work = () => (
       </Title>
       <P>
         <code>this</code> is a web application built using {''}
-        <Link target="_blank" href="https://astro.dev">
+        <Link target="_blank" rel="noreferrer" href="https://astro.dev">
           astro
         </Link>{' '}
         {''}
@@ -22,7 +22,7 @@ const Work = () => (
       <br />
       <P>
         i r really took a liking to this for it's approach to get people to {''}
-        <Link target="_blank" href="https://astro.new">
+        <Link target="_blank" rel="noreferrer" href="https://astro.new">
           try it out
         </Link>{' '}
         {''}
@@ -32,7 +32,7 @@ const Work = () => (
       <P>
         whom'st knows i may even port this whole site! i r initially thought{' '}
         {''}
-        <Link target="_blank" href="https://svelte.dev/">
+        <Link target="_blank" rel="noreferrer" href="https://svelte.dev/">
           svelte
         </Link>{' '}
         {''}

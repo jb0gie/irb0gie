@@ -18,12 +18,17 @@ const Work = () => (
       <P>
         post hackathon swagtag underwent <code>cell-division</code> and became
         what is now known today as{' '}
-        <Link target="_blank" href="https://adaptogen.247420.xyz">
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          href="https://adaptogen.247420.xyz"
+        >
           adaptogen
         </Link>{' '}
         &amp;{' '}
         <Link
           target="_blank"
+          rel="noreferrer"
           href="https://github.com/AnEntrypoint/hyperbolic-code-server"
         >
           hyperbolic~codeserver

@@ -53,13 +53,13 @@ const Work = () => (
       <br />
       <P>
         Now we have introduced the world to{' '}
-        <NextLink target="_blank" href="">
+        <NextLink target="_blank" rel="noreferrer" href="" passHref>
           <Link>
             <code>BoltEVM</code>
           </Link>
         </NextLink>{' '}
-        an interactive, immersive space anyone can use to Livestream &amp; Host up
-        to 64 Players
+        an interactive, immersive space anyone can use to Livestream &amp; Host
+        up to 64 Players
       </P>
       <br />
       <WorkImage src="/images/works/bolt2.png" alt="bolt" />
