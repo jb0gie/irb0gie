@@ -4,36 +4,80 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import swagtagThumb from '../public/images/works/swagtag.png'
 import metagameThumb from '../public/images/works/metagame.png'
+import mfThumb from '../public/images/works/mf2-logo.png'
 import wonfiddyThumb from '../public/images/works/wonfiddy.png'
 // import olewrk1Thumb from '../public/images/works/olewrk1.png'
 // import olewrk2Thumb from '../public/images/works/olewrk2.png'
 // import olewrk3Thumb from '../public/images/works/olewrk3.png'
 import pendingThumb from '../public/images/works/pending.png'
+import kinThumb from '../public/images/works/kin.png'
+import jeffThumb from '../public/images/works/jeff.png'
 
 const Works = () => (
-  <Layout title="ｗｏｒｋｓ">
+  <Layout title="ｗｏｒｋｓ　ス遠温">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        ＣＵＲＲＥＮＴ　ＷＯＲＫＳ。
-      </Heading>
-      {/* current */}
+      <Section delay={0.2}>
+        <Heading as="h3" fontSize={20} mb={4}>
+          ｃｕｒｒｅｎｔ　ｗｏｒｋｓ　哀ト億
+        </Heading>
+      </Section>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        {/* <Section>
-          <WorkGridItem id="kin" title="kin savior of humanity" thumb={kinThumb}>
-            My greatest achievement(s) to-date: the creation of a Kin savior of humanity.
-            A solar punk Alien who is able to save humanity from the destruction of the nefarious 
-            Moloch. The Avatars are the most effort thing i've done so far.
-          </WorkGridItem>
-        </Section> */}
         <Section>
-          <WorkGridItem id="hyper-webchat" title="hyper-webchat" thumbnail={pendingThumb}>
-            ＹＡｉｂＥｎｔ project - Yet another <code>internet breaking</code>{' '}
-            Entrypoint project 
+          <WorkGridItem
+            id="kin"
+            title="Ｕｒｂáｎｉｋａ　唄たぶ"
+            thumbnail={kinThumb}
+          >
+            a propaganda machine for the crypto-commons.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="swagtag" title="swagtag" thumbnail={swagtagThumb}>
-            swagtag - instant domains 
+          <WorkGridItem
+            id="namejeff"
+            title="ｍｙ　ｎａｍｅ　ｉｓ　ｊｅｆｆ　ムニグ羽"
+            thumbnail={jeffThumb}
+          >
+            thought i'd try out <code>astro.dev</code> out.
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+      <Section delay={0.2}>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={20} mb={4}>
+          ｒｅｃｅｎｔ　ｗｏｒｋｓ　ゝ科ぷ
+        </Heading>
+      </Section>
+      {/* current */}
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="metafest"
+            title="Ｍｅｔａｆｅｓｔ🐙２　曖者艶"
+            thumbnail={mfThumb}
+          >
+            Streamed{' '}
+            <Link href="https://www.youtube.com/watch?v=9IN3uxPkwS8&list=PLRSlwLW1riHMSZF-7aNvTADOZiKTdwW_2">
+              <pre>JUN9~23</pre>
+            </Link>{' '}
+            Powered by Metagame🐙
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="hyperwebchat"
+            title="ｈｙｐｅｒ~ｗｅｂｃｈａｔ　ぢど液"
+            thumbnail={pendingThumb}
+          >
+            yet another <code>internet breaking</code> entrypoint project
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="swagtag"
+            title="ｓｗａｇｔａｇ　ぁビ萎"
+            thumbnail={swagtagThumb}
+          >
+            <del>swagtag - instant domains</del> <pre>now adaptogen</pre>
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -41,7 +85,7 @@ const Works = () => (
       <Section delay={0.2}>
         <Divider my={6} />
         <Heading as="h3" fontSize={20} mb={4}>
-          ＣＯＬＬＡＢＳ。
+          ｃｏｌｌａｂｓ　ゟゑか
         </Heading>
       </Section>
       {/* collabs */}
@@ -50,9 +94,9 @@ const Works = () => (
           <WorkGridItem
             id="wonfiddy"
             thumbnail={wonfiddyThumb}
-            title="wonfiddy.eth"
+            title="ｗｏｎｆｉｄｄｙ．ｅｔｈ　ス鋭わ"
           >
-            My first <code>#wishmaker</code> &amp; dear fren check{' '}
+            the first <code>#wishmaker</code> &amp; dear fren check{' '}
             <Link href="https://twitter.com/TPS0011/status/1366465485290766342?s=20&t=woM5OK6qs-8Zac9A4_zpyg">
               this
             </Link>{' '}
@@ -62,13 +106,12 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem
             id="metagame"
-            title="metagame"
+            title="Ｍｅｔａｇａｍｅ🐙　 雲じ"
             thumbnail={metagameThumb}
           >
-            A Massive Online Coordination Game: i've been playing this game for
-            almost 2 years, making{' '}
-            <Link href="https://youtu.be/Kr9Hdt6afPw">videos</Link> like this
-            one.
+            A Massive Online Coordination Game: i've been playing 2+ years,
+            making <Link href="https://youtu.be/Kr9Hdt6afPw">vids</Link> like
+            this one.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

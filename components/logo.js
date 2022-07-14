@@ -30,7 +30,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            ｂ０ｇｉｅ/ˈbəʊ.ɡi/
+            ˢᶻᵃｂｏ０ｇ　ペ姻援
           </Text>
         </LogoBox>
       </a>

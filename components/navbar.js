@@ -87,16 +87,16 @@ const Navbar = (props) => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>ｈｕｈ❓</MenuItem>
+                  <MenuItem as={Link}>❓ ｈｕｈ　内謁履</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>ＥＸＰ。</MenuItem>
+                  <MenuItem as={Link}>ｗｏｒｋｓ　ゆヰげ</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>📼ｌｏｇ</MenuItem>
+                  <MenuItem as={Link}>📼 ｌｏｇ　ワ遠横</MenuItem>
                 </NextLink>
                 <MenuItem as={Link} href="https://linktr.ee/irb0gie">
-                  ｓｏｃｉａｌ
+                  ｓｏｃｉａｌ　ヒー河
                 </MenuItem>
               </MenuList>
             </Menu>

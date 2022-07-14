@@ -8,11 +8,27 @@ const Work = () => (
   <Layout title="swagtag">
     <Container>
       <Title>
-        swagtag　<Badge>２０２１⊸２０２２</Badge>
+        swagtag <Badge>ｄｅｃ２１－ｊａｎ２２　ト依ピ</Badge>
       </Title>
       <P>
-        A <Link href="https://moralis.io/avalanche-hackathon/">hackathon</Link>{' '}
+        a <Link href="https://moralis.io/avalanche-hackathon/">hackathon</Link>{' '}
         submission: swagtag is a public ecosystem for listing web3 projects.
+      </P>
+      <br />
+      <P>
+        post hackathon swagtag underwent <code>cell-division</code> and became
+        what is now known today as{' '}
+        <Link target="_blank" href="https://adaptogen.247420.xyz">
+          adaptogen
+        </Link>{' '}
+        &amp;{' '}
+        <Link
+          target="_blank"
+          href="https://github.com/AnEntrypoint/hyperbolic-code-server"
+        >
+          hyperbolic~codeserver
+        </Link>
+        . because of swagtag, we have some serious tools in our arsenal now.
       </P>
       <List ml={4} my={4}>
         <ListItem>

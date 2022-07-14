@@ -26,7 +26,7 @@ const Page = () => {
     <Layout title="ｂｉｏ">
       <Container>
         <Box
-          borderRadius="lg"
+          borderRadius="xl"
           bg={useColorModeValue('whiteAplha.500', 'whiteAlpha.200')}
           // bgGradient={[
           //   'linear(to-tr, teal.300, yellow.400)',
@@ -37,7 +37,11 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          𝐢 𝐫 🆂🅸🅼🅿🅻🅴😅， Ⓜ️🅸🅽🅸🅼🅰🅻🅸🆂🆃🅸🅲， 3️⃣🆃🅷🅸🅽🅺🅴🆁🧠.
+          ｉ░ｒ░🆂🅸🅼🅿🅻🅴😅
+          <br />
+          Ⓜ️🅸🅽🅸🅼🅰🅻🅸🆂🆃🅸🅲
+          <br />
+          3️⃣🆃🅷🅸🅽🅺🅴🆁🧠.
           <br />
           ｂａｓｅｄ　ｏｎ　ｎｅｔ。
         </Box>
@@ -75,11 +79,13 @@ const Page = () => {
                 <PopoverCloseButton />
                 <PopoverHeader>
                   <Heading as="h3" size="md">
-                    ｂ０ｇｉｅ
+                    ｍ３ｔａｂ０ｇｉｅ　ぽぶ卸
                   </Heading>
                 </PopoverHeader>
                 <PopoverBody>
-                  <p>by Yami.</p>
+                  <p>
+                    my first custom <code>.vrm</code>
+                  </p>
                 </PopoverBody>
               </PopoverContent>
             </Popover>
@@ -87,10 +93,10 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h2" variant="section-title">
-            📀ＥＸＰ。
+            ｗｈｏ░ｒ░ｉ
           </Heading>
           <Paragraph>
-            i r　creative innovattive free thinker, conceptualising delightful
+            ｉ░ｒ░ creative innovattive free thinker, conceptualising delightful
             visual experiences for all that in-turn empower &amp; engage users.
             currently working on projects, in{' '}
             <NextLink href="https://dsc.gg/entrypoint" passHref>
@@ -98,69 +104,129 @@ const Page = () => {
             </NextLink>
             .
           </Paragraph>
+          <br />
           <Paragraph>
-            i r find <code>alt-cord</code>a.k.a.{' '}
-            <NextLink href="https://guilded.gg" passHref>
-              <Link>Guilded</Link>
-            </NextLink>
-            .{' '}
-            i r has a{' '}
-            <NextLink href="https://www.guilded.gg/r/zzNRgkYnvR?i=dVbZbQ5d" passHref>
+            ｉ░ｒ░ has a{' '}
+            <NextLink
+              href="https://www.guilded.gg/r/zzNRgkYnvR?i=dVbZbQ5d"
+              passHref
+            >
               <Link>bungalow</Link>
-            </NextLink>{' '}
-            i made a test but i've grown quite organised since using it. i r tink this is 
-            bc with cord you can only truly enjoy it when you has nitro...which is a scam.
-            i r telegram OG.{' '}
+            </NextLink>
+            . ｉ░ｒ░ do tests but i've grown quite organised since using it.
+            ｉ░ｒ░ tink this is bc with cord you can only truly enjoy it when
+            you has nitro <code>a.k.a</code>...which is a scam. ｉ░ｒ░ telegram
+            OG.{' '}
             <NextLink href="https://t.me/probablentry" passHref>
-              <Link><code>@probablentry</code></Link>
+              <Link>
+                <code>@probablentry</code>
+              </Link>
             </NextLink>
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works" passHref>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                ｆｏｌｉｏ
+                ｓｔｕｆｆ　ｉ░ｒ░ 　ｄｏ　怨果パ
               </Button>
             </NextLink>
           </Box>
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            ＯＲＩＧＩＮＳ。
+            Ｏｒｉｇｉｎ~Ｓｔｏｒｙ　現ャの。
           </Heading>
           <BioSection>
-            <BioYear>"９０</BioYear>
+            <BioYear>１９９０　慰ガホ</BioYear>
+            <br />
             Spawned in EU-west server.
           </BioSection>
           <BioSection>
-            <BioYear>"０８</BioYear>
-            Hurricane Katrina Relief via High School 🏈 Team
+            <BioYear>２００８　ユす流</BioYear>
+            <br />
+            Hurricane Katrina Relief via school 🏈 team
           </BioSection>
           <BioSection>
-            <BioYear>"１４</BioYear>
+            <BioYear>２０１４　キ音せ</BioYear>
+            <br />
             Completed the BSc for Digital Media @{' '}
-            <a href="https://www.port.ac.uk/">UoP</a>.
+            <a target="_blank" href="https://www.port.ac.uk/">
+              UoP
+            </a>
+            .
           </BioSection>
           <BioSection>
-            <BioYear>"１５⊶２２</BioYear>
+            <BioYear>２０１５⊶２２　やサ何</BioYear>
+            <br />
             Worked as a Media Developer @{' '}
-            <a href="https://www.gov.uk/government/organisations/ministry-of-defence">
+            <a
+              target="_blank"
+              href="https://www.gov.uk/government/organisations/ministry-of-defence"
+            >
               MoD
             </a>
           </BioSection>
           <BioSection>
-            <BioYear>ｒｉｇｈｔ　ｎｏｗ</BioYear> Within the momemt. 🧘🏾
+            <BioYear>~/ｐｒｅｓｅｎｔ　謁や凹</BioYear>
+            <br />
+            ｒｉｇｈｔ░ｈｅｒｅ🧘🏾
           </BioSection>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            ｂ０ｇｉｅ❤️‍🔥
+            ❤️‍🔥ＨＯＢＢＩＥＳ　アじニ
           </Heading>
           <Paragraph>
-            Art🧑🏾‍🎨🎨, Music🎶🎧,{' '}
-            <Link href="https://www.youtube.com/embed/yGxexLnakQ4">
-              Dancing 🕺🏾💃🏾
+            <Link target="_blank" href="https://youtu.be/vqgODEkEFeQ">
+              Art🎨
             </Link>
-            , Filmography🤳🏾🎞️, Travel✈️🏝️, Games🕹️🏓, Writing📝📚, <Link href="https://www.youtube.com/watch?v=tb6bUYpM1_0">Podcasts🗣️🎙️</Link>
+            ,
+            <Link
+              target="_blank"
+              href="https://vimeo.com/manage/videos/333606696"
+            >
+              {' '}
+              Music🎧
+            </Link>
+            ,
+            <Link
+              target="_blank"
+              href="https://www.youtube.com/embed/yGxexLnakQ4"
+            >
+              {' '}
+              Dancing 🕺🏾
+            </Link>
+            ,
+            <Link
+              target="_blank"
+              href="https://www.youtube.com/shorts/4VfOjGv1xk4"
+            >
+              {' '}
+              Filmography🤳🏾
+            </Link>
+            ,
+            <br />
+            <Link
+              target="_blank"
+              href="https://www.youtube.com/watch?v=VQeiwBYj240&list=PL8AT6MsTVpK2ZidSIELJDvJ-jgWcEuNOw"
+            >
+              Travel✈️
+            </Link>
+            ,
+            <Link target="_blank" href="https://youtu.be/YBqlwHKjQ4A?t=10011">
+              {' '}
+              Games🕹️
+            </Link>
+            ,
+            <Link target="_blank" href="https://hackmd.io/@irb0gie">
+              {' '}
+              Writing📝
+            </Link>
+            ,
+            <Link href="https://www.youtube.com/watch?v=tb6bUYpM1_0">
+              {' '}
+              Podcasts🎙️
+            </Link>
+            .
           </Paragraph>
         </Section>
       </Container>

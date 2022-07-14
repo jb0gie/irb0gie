@@ -5,10 +5,11 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="🚢Ships 🛳️Boats 🛶Vessels">
     <Container>
       <Title>
-        Ship app | a native android app.<Badge>２０１６</Badge>
+        🚢Ｓｈｉｐｓ　🛳️Ｂｏａｔｓ　🛶Ｖｅｓｓｅｌｓ　臆ビ曖
+        <Badge>２０１６</Badge>
       </Title>
       <P>
         My manager approached me asking if we had the capability to develop
@@ -32,7 +33,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Electron, React Native</span>
+          <span>Flutter</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>

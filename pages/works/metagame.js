@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="metagame">
     <Container>
       <Title>
-        Metagame🐙<Badge>- ＣＵＲＲＥＮＴ</Badge>
+        Ｍｅｔａｇａｍｅ🐙　フうヲ<Badge>- ＣＵＲＲＥＮＴ</Badge>
       </Title>
       <P>A Massive Online Coordination Game</P>
       <blockquote>
@@ -17,20 +17,22 @@ const Work = () => (
         game, or goes beyond the supposed limits or environment set by the
         game.” - From Wiki
       </blockquote>
+      <P></P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://metagame.wtf">
-            Metagame🐙 Wiki <ExternalLinkIcon mx="2px" />
+            Metagame🐙
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <span>The Internet</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>the 3rd web</span>
+          <span>Web3 <code>Mathamagik</code></span>
         </ListItem>
         <ListItem>
           <Meta>Realizing Metagame</Meta>
@@ -39,10 +41,12 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
-
       <WorkImage src="/images/works/metagame.png" alt="Meta Game 🐙 Logo" />
       <WorkImage src="/images/works/mg1.jpg" alt="Meta Game 🐙 Crystal" />
       <WorkImage src="/images/works/nova.png" alt="Nova the 🐙" />
+      <Link href="/metafest">
+        <WorkImage src="/images/works/mf2-logo.png" alt="MF2  🐙 logo" />
+      </Link>
     </Container>
   </Layout>
 )

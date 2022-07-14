@@ -74,7 +74,7 @@ const MetaBogie = () => {
         '/m3tab0gie.glb',
         function (gltf) {
           const model = gltf.scene
-          model.position.set(0, 0, 0)
+          model.position.set(0, -0.5, 0)
           mixer = new THREE.AnimationMixer(model)
           scene.add(model)
           animate()
