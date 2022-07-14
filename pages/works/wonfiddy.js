@@ -53,7 +53,7 @@ const Work = () => (
       <br />
       <P>
         Now we have introduced the world to{' '}
-        <NextLink href="https://boltevm.com/">
+        <NextLink href="https://boltevm.com/" passHref></NextLink>
           <Link>
             <code>BoltEVM</code>
           </Link>

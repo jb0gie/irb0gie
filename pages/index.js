@@ -176,52 +176,28 @@ const Page = () => {
             ❤️‍🔥ＨＯＢＢＩＥＳ　アじニ
           </Heading>
           <Paragraph>
-            <Link target="_blank" href="https://youtu.be/vqgODEkEFeQ">
-              Art🎨
-            </Link>
-            ,
-            <Link
-              target="_blank"
-              href="https://vimeo.com/manage/videos/333606696"
-            >
+            <Link href="https://youtu.be/vqgODEkEFeQ">Art🎨</Link>,
+            <Link href="https://vimeo.com/manage/videos/333606696">
               {' '}
               Music🎧
             </Link>
             ,
-            <Link
-              target="_blank"
-              href="https://www.youtube.com/embed/yGxexLnakQ4"
-            >
+            <Link href="https://www.youtube.com/embed/yGxexLnakQ4">
               {' '}
               Dancing 🕺🏾
             </Link>
             ,
-            <Link
-              target="_blank"
-              href="https://www.youtube.com/shorts/4VfOjGv1xk4"
-            >
+            <Link href="https://www.youtube.com/shorts/4VfOjGv1xk4">
               {' '}
               Filmography🤳🏾
             </Link>
             ,
             <br />
-            <Link
-              target="_blank"
-              href="https://www.youtube.com/watch?v=VQeiwBYj240&list=PL8AT6MsTVpK2ZidSIELJDvJ-jgWcEuNOw"
-            >
+            <Link href="https://www.youtube.com/watch?v=VQeiwBYj240&list=PL8AT6MsTVpK2ZidSIELJDvJ-jgWcEuNOw">
               Travel✈️
             </Link>
-            ,
-            <Link target="_blank" href="https://youtu.be/YBqlwHKjQ4A?t=10011">
-              {' '}
-              Games🕹️
-            </Link>
-            ,
-            <Link target="_blank" href="https://hackmd.io/@irb0gie">
-              {' '}
-              Writing📝
-            </Link>
-            ,
+            ,<Link href="https://youtu.be/YBqlwHKjQ4A?t=10011"> Games🕹️</Link>,
+            <Link href="https://hackmd.io/@irb0gie"> Writing📝</Link>,
             <Link href="https://www.youtube.com/watch?v=tb6bUYpM1_0">
               {' '}
               Podcasts🎙️
