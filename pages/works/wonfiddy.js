@@ -28,7 +28,7 @@ const Work = () => (
       <br />
       <P>
         From helping birth{' '}
-        <NextLink target="_blank" href="https://www.nftoasis.co/press" passHref>
+        <NextLink href="https://www.nftoasis.co/press" passHref>
           <Link>NFT Oasis</Link>
         </NextLink>{' '}
       </P>
@@ -44,7 +44,7 @@ const Work = () => (
       <br />
       <P>
         To then helping establish foundations with{' '}
-        <NextLink target="_blank" href="https://throwlights.com/" passHref>
+        <NextLink href="https://throwlights.com/" passHref>
           <Link>Throwlights</Link>
         </NextLink>{' '}
         in web 3 &amp; the metaverse.
@@ -53,7 +53,7 @@ const Work = () => (
       <br />
       <P>
         Now we have introduced the world to{' '}
-        <NextLink target="_blank" rel="noreferrer" href="" passHref>
+        <NextLink href="https://boltevm.com/">
           <Link>
             <code>BoltEVM</code>
           </Link>
