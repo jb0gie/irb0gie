@@ -149,19 +149,13 @@ const Page = () => {
             <BioYear>２０１４　キ音せ</BioYear>
             <br />
             Completed the BSc for Digital Media @{' '}
-            <a target="_blank" href="https://www.port.ac.uk/">
-              UoP
-            </a>
-            .
+            <a href="https://www.port.ac.uk/">UoP</a>.
           </BioSection>
           <BioSection>
             <BioYear>２０１５⊶２２　やサ何</BioYear>
             <br />
             Worked as a Media Developer @{' '}
-            <a
-              target="_blank"
-              href="https://www.gov.uk/government/organisations/ministry-of-defence"
-            >
+            <a href="https://www.gov.uk/government/organisations/ministry-of-defence">
               MoD
             </a>
           </BioSection>
