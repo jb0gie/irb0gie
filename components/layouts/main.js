@@ -9,6 +9,11 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>🧞</title>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9799301594836054"
+          crossorigin="anonymous"
+        ></script>
       </Head>
       <Navbar path={router.asPath} />
       <Container maxW="container.md" pt={14}>
