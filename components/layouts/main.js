@@ -12,7 +12,7 @@ const Main = ({ children, router }) => {
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9799301594836054"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
       </Head>
       <Navbar path={router.asPath} />
