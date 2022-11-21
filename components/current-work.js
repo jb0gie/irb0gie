@@ -3,7 +3,7 @@ import Section from './section'
 import { WorkGridItem } from './grid-item'
 import setThumb from '../public/images/works/the-set-logo.png'
 import numbersThumb from '../public/images/works/numbersThumb.png'
-import mv1Thumb from '../public/images/works/mv1Thumb.png'
+import mv1Thumb from '../public/images/works/mv1thumb.png'
 import mv2Thumb from '../public/images/works/mv2Thumb.png'
 export const CurrentWork = () => (
   <>
