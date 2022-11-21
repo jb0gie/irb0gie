@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => (
   <Layout title="swagtag">
-    <Container>
+    <Container my={56}>
       <Title>
         swagtag <Badge>ｄｅｃ２１－ｊａｎ２２　ト依ピ</Badge>
       </Title>
@@ -18,15 +18,8 @@ const Work = () => (
       <P>
         post hackathon swagtag underwent <code>cell-division</code> and became
         what is now known today as{' '}
-        <Link
-          href="https://adaptogen.247420.xyz"
-        >
-          adaptogen
-        </Link>{' '}
-        &amp;{' '}
-        <Link
-          href="https://github.com/AnEntrypoint/hyperbolic-code-server"
-        >
+        <Link href="https://adaptogen.247420.xyz">adaptogen</Link> &amp;{' '}
+        <Link href="https://github.com/AnEntrypoint/hyperbolic-code-server">
           hyperbolic~codeserver
         </Link>
         . because of swagtag, we have some serious tools in our arsenal now.

@@ -6,24 +6,23 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => (
   <Layout title="Urbánika">
-    <Container>
+    <Container my={56}>
       <Title>
-        Urbánika <Badge>ｃｕｒｒｅｎｔ　ホラ謁</Badge>
+        Kin Urbánika <Badge>ｃｕｒｒｅｎｔ　ホラ謁</Badge>
       </Title>
       <P>
         operates through an immersive video course guide on using and applying
-        decentralized coordination tools and techniques at local urban DAOs.{''}
-        The goal is to guide activists into regenerating and re-imagining cities
+        decentralized coordination tools and techniques at local urban DAOs.
+      </P>
+
+      <P>
+        the goal is to guide activists into regenerating and re-imagining cities
         through a <code>solar~punk</code> and crypto-commons-based perspective.
-        This repository is for storing all things related to the film series
-        production.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>
-          <Link
-            href="https://testingitall.my.canva.site/"
-          >
+          <Link href="https://testingitall.my.canva.site/">
             Homepage
             <ExternalLinkIcon mx="2px" />
           </Link>
@@ -34,13 +33,11 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Blender, Unreal Engine 5</span>
+          <span>Blender, Unreal Engine 5, Character Creator 4</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
-          <Link
-            href="https://gitcoin.co/grants/5090/ourverse-and-the-solarpunk-awakening"
-          >
+          <Link href="https://gitcoin.co/grants/5090/ourverse-and-the-solarpunk-awakening">
             Gitcoin grant
             <ExternalLinkIcon mx="2px" />
           </Link>
@@ -58,6 +55,23 @@ const Work = () => (
         src="/images/works/kinRef3.png"
         alt="left to right: Moloch, Kin, Julio"
       />
+      <WorkImage
+        src="/images/works/kinRef4.png"
+        alt="MetaHuman Kin v1 with concept hair"
+      />
+      <WorkImage
+        src="/images/works/kinRef5.png"
+        alt="from behind: MetaHuman Kin custom arm"
+      />
+      <WorkImage
+        src="/images/works/kinRef6.png"
+        alt="from front: MetaHuman Kin custom arm"
+      />
+      <WorkImage
+        src="/images/works/kinRef7.png"
+        alt="close up: MetaHuman Kin custom arm"
+      />
+      <WorkImage src="/images/works/kinRef8.png" alt="MetaHuman Kin v2 ears" />
     </Container>
   </Layout>
 )

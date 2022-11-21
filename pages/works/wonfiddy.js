@@ -15,7 +15,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => (
   <Layout title="wonfiddy">
-    <Container>
+    <Container my={56}>
       <Title>
         １５０．ｅｔｈ　因ぅ泳{''}{' '}
         <Badge> ２０１７~ｃｕｒｒｅｎｔ　ヾ暗づ</Badge>

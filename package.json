@@ -1,7 +1,7 @@
 {
   "name": "irb0gie",
   "version": "0.0.0",
-  "description": "b0gie's website",
+  "description": "irb0gie's personal website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -9,7 +9,7 @@
     "lint": "eslint ."
   },
   "keywords": [],
-  "author": "MikuTakeshita",
+  "author": "Miku Takeshita",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^1.1.5",

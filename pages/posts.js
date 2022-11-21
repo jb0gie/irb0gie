@@ -12,7 +12,7 @@ import thumbArticle1 from '../public/images/contents/article1.jpg'
 // import thumbArticle2 from '../public/images/contents/article2.jpg'
 const Posts = () => (
   <Layout title="ｃｏｎｔｅｎｔ　ベド゠">
-    <Container>
+    <Container my={56}>
       <Heading as="h3" fontSize={20} mb={4} delay={0.1}>
         Vids
       </Heading>

@@ -5,8 +5,8 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="metagame">
-    <Container>
+  <Layout title="MG🐙">
+    <Container my={56}>
       <Title>
         Ｍｅｔａｇａｍｅ🐙　フうヲ<Badge>- ＣＵＲＲＥＮＴ</Badge>
       </Title>
@@ -32,7 +32,9 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Web3 <code>Mathamagik</code></span>
+          <span>
+            Web3 <code>Mathamagik</code>
+          </span>
         </ListItem>
         <ListItem>
           <Meta>Realizing Metagame</Meta>

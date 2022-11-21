@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => (
   <Layout title="Inkdrop">
-    <Container>
+    <Container my={56}>
       <Title>
         Server Repair Sim | a virtualised concept training solution.
         <Badge>２０１８⊸２０１９</Badge>

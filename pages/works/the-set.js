@@ -5,48 +5,54 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="hyper~webchat">
+  <Layout title="MusicVid1">
     <Container my={56}>
       <Title>
-        ｈｙｐｅｒ~ｗｅｂｃｈａｔ　ヌ音フ{' '}
-        <Badge>ｆｅｂ~ｊｕｎ２２　ゞれア</Badge>
+        Ｔｈｅ　ｓｅｔ　ヅ愛彙
+        <Badge>ｃｕｒｒｅｎｔ　を挨リ</Badge>
       </Title>
-      <P>
-        is a <code>hyper~light</code> web application that provides a platform
-        for users to communicate with each other and host their own projects.
-      </P>
-      <br />
-      <P>
-        this project kinda fell of our radar but we rarely drop something for
-        good
-      </P>
+			<P>
+				this is a first for me, making a <code>game</code> well it's more of a custom
+				vtubing application.
+				it's been super fun to make thus far and
+				i cannot wait to actually use in in prod.
+			</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>
           <Link href="#">
-            entrypoint.fujiavax.ga/
+            Pending
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>The browser</span>
+          <span>Windows</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Websockets, Riot</span>
+          <span>Blender, Unity</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
-          <Link href="">
+          <Link href="#">
             pending
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
-
-      <WorkImage src="/images/works/cordkilla1.png" alt="" />
-      <WorkImage src="/images/works/cordkilla2.png" alt="" />
+      <WorkImage
+        src="/images/works/the-set-logo.png"
+        alt="another snippet of the hallway ir built"
+      />
+      <WorkImage
+        src="/images/works/the-set-work.gif"
+        alt="another snippet of the hallway ir built"
+      />
+      <WorkImage
+        src="/images/works/the-set-work2.png"
+        alt="another snippet of the hallway ir built"
+      />
     </Container>
   </Layout>
 )

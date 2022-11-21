@@ -5,48 +5,47 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="hyper~webchat">
+  <Layout title="MusicVid1">
     <Container my={56}>
       <Title>
-        ｈｙｐｅｒ~ｗｅｂｃｈａｔ　ヌ音フ{' '}
-        <Badge>ｆｅｂ~ｊｕｎ２２　ゞれア</Badge>
+        Ｃ.Ｄ.Ｓ.　竹ヮのは
+        <Badge>ｃｕｒｒｅｎｔ　を挨リ</Badge>
       </Title>
       <P>
-        is a <code>hyper~light</code> web application that provides a platform
-        for users to communicate with each other and host their own projects.
-      </P>
-      <br />
-      <P>
-        this project kinda fell of our radar but we rarely drop something for
-        good
+        my cousin's {''}
+        <Link href="https://soundcloud.com/64wintrs/cirque-du-soleil">
+          <code>sound cloud track</code>
+        </Link>{' '}
+        i'm making a music video for
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>
           <Link href="#">
-            entrypoint.fujiavax.ga/
+            Pending
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>The browser</span>
+          <span>The Internet</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Websockets, Riot</span>
+          <span>Blender</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
-          <Link href="">
+          <Link href="#">
             pending
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
-
-      <WorkImage src="/images/works/cordkilla1.png" alt="" />
-      <WorkImage src="/images/works/cordkilla2.png" alt="" />
+      <WorkImage
+        src="/images/works/mv1Thumb.png"
+        alt="another snippet of the hallway ir built"
+      />
     </Container>
   </Layout>
 )

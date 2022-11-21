@@ -30,7 +30,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            ˢᶻᵃｂｏ０ｇ　ペ姻援
+            ｓｚａｂｏ０ｇｅｎｉｅ　そゼゅ
           </Text>
         </LogoBox>
       </a>

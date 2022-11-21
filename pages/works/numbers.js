@@ -5,26 +5,24 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="hyper~webchat">
+  <Layout title="numbers">
     <Container my={56}>
       <Title>
-        ｈｙｐｅｒ~ｗｅｂｃｈａｔ　ヌ音フ{' '}
-        <Badge>ｆｅｂ~ｊｕｎ２２　ゞれア</Badge>
+        ２４７４２０　愛マ化<Badge>ｃｕｒｒｅｎｔ　を挨リ</Badge>
       </Title>
       <P>
-        is a <code>hyper~light</code> web application that provides a platform
-        for users to communicate with each other and host their own projects.
+        <Link href="https://about.247420.xyz">
+          <code>247420</code>
+        </Link>{' '}
+        is the code to an entrypoint known formally as <code>nao</code>.
+        we are always here nao. nao is all we have.
       </P>
       <br />
-      <P>
-        this project kinda fell of our radar but we rarely drop something for
-        good
-      </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>
-          <Link href="#">
-            entrypoint.fujiavax.ga/
+          <Link href="https://247420.xyz/">
+            an entrypoint
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -34,19 +32,25 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Websockets, Riot</span>
+          <span>Blender, Unity, OBS, NDI, VDO</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
-          <Link href="">
+          <Link href="#">
             pending
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
-
-      <WorkImage src="/images/works/cordkilla1.png" alt="" />
-      <WorkImage src="/images/works/cordkilla2.png" alt="" />
+      <WorkImage src="/images/works/numbers-work3.png" alt="next gen dev" />
+      <WorkImage
+        src="/images/works/numbers-work2.png"
+        alt="what astro looks like"
+      />
+      <WorkImage
+        src="/images/works/numbers-work.png"
+        alt="the page go visit it NOW"
+      />
     </Container>
   </Layout>
 )

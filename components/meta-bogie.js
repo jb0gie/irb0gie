@@ -17,8 +17,8 @@ const MetaBogie = () => {
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
-  const [target] = useState(new THREE.Vector3(0, 0, 0))
-  const [initialCameraPosition] = useState(new THREE.Vector3(0, 0, 5))
+  const [target] = useState(new THREE.Vector3(0, 1.5, 0))
+  const [initialCameraPosition] = useState(new THREE.Vector3(0, 0, 2))
   const [scene] = useState(new THREE.Scene())
   const [_controls, setControls] = useState()
 
@@ -52,7 +52,7 @@ const MetaBogie = () => {
       // 640 -> 240
       // 8   -> 6
       const scale = scH * 0.005 + 4.8
-      const camera = new THREE.PerspectiveCamera(45, scW / scH, 0.01, 50000)
+      const camera = new THREE.PerspectiveCamera(20, scW / scH, 0.01, 50000)
       camera.position.copy(initialCameraPosition)
       camera.lookAt(target)
       setCamera(camera)
@@ -74,7 +74,7 @@ const MetaBogie = () => {
         '/m3tab0gie.glb',
         function (gltf) {
           const model = gltf.scene
-          model.position.set(0, -0.5, 0)
+          model.position.set(0, 0, 0)
           mixer = new THREE.AnimationMixer(model)
           scene.add(model)
           animate()

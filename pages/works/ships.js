@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => (
   <Layout title="🚢Ships 🛳️Boats 🛶Vessels">
-    <Container>
+    <Container my={56}>
       <Title>
         🚢Ｓｈｉｐｓ　🛳️Ｂｏａｔｓ　🛶Ｖｅｓｓｅｌｓ　臆ビ曖
         <Badge>２０１６</Badge>

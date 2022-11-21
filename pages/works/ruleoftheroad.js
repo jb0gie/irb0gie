@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => (
   <Layout title="Inkdrop">
-    <Container>
+    <Container my={56}>
       <Title>
         Rule of the road | an interactive Rule of the Road concept demonstator.
         <Badge>２０１７⊸２０１８</Badge>
