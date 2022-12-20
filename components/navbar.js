@@ -73,6 +73,11 @@ const Navbar = (props) => {
           <LinkItem href="/posts" path={path}>
             📼ｌ０ｇ。
           </LinkItem>
+          <LinkItem href="https://mastodon.247420.xyz/@irb0gie">
+            <a rel="me" href="https://mastodon.247420.xyz/@irb0gie">
+              ⁱ'ᵐ ᵒⁿ 🐘 ᵐᵃˢᵗᵒᵈᵒⁿ
+            </a>
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
