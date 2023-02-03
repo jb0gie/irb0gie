@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/j_b0gie
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://irb0gie.vercel.app
+  * I am j_b0gie (https://keybase.io/j_b0gie) on keybase.
+  * I have a public key with fingerprint EBF6 95F0 7515 2AF7 1681  A31B 5CB0 2F6D 0280 5519
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201c2278078c84134e8f031aa89fb103e0291bd38d3a4ca7e9a42a2d9efbc515b30a",
+      "fingerprint": "ebf695f075152af71681a31b5cb02f6d02805519",
+      "host": "keybase.io",
+      "key_id": "5cb02f6d02805519",
+      "kid": "010159907f3b1fa0cea458877f1c6e3f1d9a881ed7491e230efea5c11bdca78e41b30a",
+      "uid": "3767732d8abfcb93518cc953f00f5d19",
+      "username": "j_b0gie"
+    },
+    "service": {
+      "hostname": "irb0gie.vercel.app",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1675433707,
+  "expire_in": 157680000,
+  "prev": "d3cf58289c23a1546098c64ce4091792ab336be80291bbb2af20145515afa443",
+  "seqno": 71,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMN0AnicbVJtUFRVGF5AaFggGCUFPxq9DNYks9xzP/aeS2k2DEXSyjqsSczScu69
+5+5ehN1ldwGRcAhkRKoRpg8BwcgxGvGHVGJSUmCUoHxFOIEQDeJEQSofjhOBU3cZ
+/Nf5c+ac8zzP+zzveTtD/DRaH3NzbLZv8f5Inxsd9bka8df1M4WE4JAKiLhC4iBe
+2XCWhN0ey0FFIuIIElAkECmKgyQHRcgAmsFQJmmAEORlAZA0JikeCBINJRoxIuIw
+jxgKURKPZUFkASvQJCJiCFmxW7HL6VLsHlUWC7KeZ2WSUwEUkjmghwDRQGBFgaRk
+vURSkGRZwKtEm8PtZajmBOTGOsWh3qkHy4q9/8E/9k0CludJTqYFICNSxIhhIeQ4
+GYh6TMtA4hGEAEscwwNM0SSWMWJFoCZRM0DMgFXfuStyNKfnOJqSIBJkUeBpFkBR
+5FlaJkmZlVbq5rqxy46ysYrOtAikVcFEUQyhXuYpIvb21RtkFaC4VgC6POwScZYO
+OZ2qgNPl8DhER5b6bvN4nO44L99T4PQS8rFgWZWyCIpdUpupMlS6W3HYiTigIkWP
+4tUGeo5laJojuRgCH3IqLmxRvAiW00NSXd46OE+VlGhRZiEFeZGiEWAZPclDUc+I
+mCF5wPEUEmhaL2C48r2CoP6SOgmM2mQWyYhhaMIbLsfuIOI4oPpEVlXTrVjtyJPr
+UqNf7TCv0fhoNQH+vt4p02gDwx7P3glbmKa30hMxOLjPwLZfuHvp6fxZDddfOP1T
+X9jG8K7PfL9s0mq2uRoXM4uzb00s3eNDO+bA6NqsyMNnMowlwpbv0kwGWN1laLyS
+LiQe3TtsTAyo+Xro0VxP93PaF89e1AWOXQndHc/ciY3e0zU80ll3JPnq/fXv8idP
++SdvvXUscb70bEtByuS2X3oTmA3P337S2NZsiKzZ29dc/Vo5kfDj6PTmCv9z1cB3
+fKPc47d085ypJKioTdSNDRTbwuL/NJnOX4iwfL9crwnP+nfHmUOfxES9kZxh7Y3M
+2N59ZHxg8XTH0prleiOavPFqBUyrWvcwNWLPN0PTEaOOTRNbP3rl0/tvnbrmd/nO
+2LOSJ6SzgRNMZGl2ydqLh/9I2vxonzVfO5RfVmEMXTo+sqW/ZWT52IEAW+TC+bmn
+Yq+XvhPzXmSutaFsIF28+0Hs/L1nSnTDTSN8gmHcX7n5oC2j/HOwoaNn12DU7w9b
+mO3T396Wj1fZXOzMjLEovWmi7ovddanvm8wzfz+w/5xirgxMOrnrcvD+9sz2kO7f
+cqKrwhvar2eA7tNvHn27cirnw5qU0Vr7FA4+YY1KMb+0MAEdfYNB0Tv/Mbz8Vf7o
+jlm/oKniWhyf9jppRRMFoWb7C61JwUmprb45l3zkIbG8rAg+MQtzWheKG2vts+Yf
+NgUdcDThdYs7r33c3zw/afvrP0SvvxE=
+=+ruu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/j_b0gie
+
+==================================================================

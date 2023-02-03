@@ -114,7 +114,7 @@ const Page = () => {
           </Paragraph>
           <br />
           <Paragraph>
-            {/* <code>𝕀ℝ░</code> has a{' '}
+            <code>𝕀ℝ░</code> has a{' '}
             <NextLink
               href="https://www.guilded.gg/r/zzNRgkYnvR?i=dVbZbQ5d"
               passHref
@@ -125,7 +125,7 @@ const Page = () => {
             using it.
             <code>𝕀ℝ░</code> think this is bc with cord you can only truly
             enjoy it when you has nitro <code>a.k.a</code>...which is a scam...
-            so instead */}
+            so instead
             <code>𝕀ℝ░</code> a telegram OG. i think it's waaaay better than
             cord. you can stay tuned exclusively here:{' '}
             <NextLink href="https://t.me/probablentry" passHref>
