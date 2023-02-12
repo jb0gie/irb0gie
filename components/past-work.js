@@ -9,7 +9,7 @@ export const PastWork = () => (
     <Section delay={0.4}>
       <Divider my={6} />
       <Heading as="h3" fontSize={20} mb={4}>
-        ｐａｓｔ　ｗｏｒｋ　フ鉛王
+        𝕡𝕒𝕤𝕥 𝕨𝕠𝕣𝕜
       </Heading>
     </Section>
 
@@ -21,7 +21,7 @@ export const PastWork = () => (
       </Section>
       <Section delay={0.5}>
         <WorkGridItem
-          id="ruleoftheroad"
+          id="ruleofroad"
           thumbnail={olewrk2Thumb}
           title="Rule of the road"
         >

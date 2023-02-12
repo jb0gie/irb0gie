@@ -42,24 +42,22 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          𝕀ℝ░🆂🅸🅼🅿🅻🅴😅
+          🆂🅸🅼🅿🅻🅴😅,
           <br />
-          Ⓜ️🅸🅽🅸🅼🅰🅻🅸🆂🆃🅸🅲
+          Ⓜ️🅸🅽🅸🅼🅰🅻🅸🆂🆃🅸🅲,
           <br />
-          3️⃣🆃🅷🅸🅽🅺🅴🆁🧠.
+          3️⃣ 🅵🆁3️⃣3️⃣ 🆃🅷🅸🅽🅺🅴🆁🧠.
           <br />
-          ｂａｓｅｄ　ｏｎ　ｎｅｔ。
+          ｏｎ~ｎｅｔ。
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box>
             <Heading as="h1" variant="page-title">
-              ｂ０ｇｉｅ/ˈbəʊ.ɡi/
+              ｂ❍ｇｉｅ/ˈbəʊ.ɡi/
             </Heading>
             <p>
-              ｓｏｍｅｔｉｎｇ　ｔｈａｔ　ｃａｕｓｅｓ　
-              <br />
-              ｆｅａｒ ｉｎ　ｍａｎｙ　ｐｐｌ, <br />
-              ｏｆｔｅｎ　ｗｉｔｈｏｕｔ ｒａｉｓｉｎ。
+              Ｓｏｍｅｔｈｉｎｇ　ｔｈａｔ　ｃａｕｓｅｓ　ｆｅａｒ　ｉｎ　ｍａｎｙ，　
+              ｏｆｔｅｎ　ｗ／ｏ　ｒｅａｓｏｎ。
             </p>
           </Box>
           <Box
@@ -78,7 +76,7 @@ const Page = () => {
                   display="inline-block"
                   borderRadius="full"
                   src="images/avi.png"
-                  alt="m3tab0gie"
+                  alt="𝕤𝕫𝕒𝕓𝕠❍𝕘𝕖𝕟𝕚𝕖"
                 />
               </PopoverTrigger>
               <PopoverContent zIndex={4}>
@@ -86,12 +84,12 @@ const Page = () => {
                 <PopoverCloseButton />
                 <PopoverHeader>
                   <Heading as="h3" size="md">
-                    ｓｚａｂｏ０ｇｅｎｉｅ
+                    𝕤𝕫𝕒𝕓𝕠❍𝕘𝕖𝕟𝕚𝕖
                   </Heading>
                 </PopoverHeader>
                 <PopoverBody>
                   <p>
-                    <code>𝕀ℝ░ custom .vrm</code>
+                    <code>szb0gn.vrm</code>
                   </p>
                 </PopoverBody>
               </PopoverContent>
@@ -100,100 +98,80 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h2" variant="section-title">
-            <code>𝕀ℝ░</code>ｓｚａｂｏ０ｇｅｎｉｅ,
+            <code>𝕤𝕫𝕒𝕓𝕠❍𝕘𝕖𝕟𝕚𝕖</code>
           </Heading>
           <Paragraph>
-            <code>𝕀ℝ░</code> creative innovative 3️⃣🆃🅷🅸🅽🅺🅴🆁🧠, conceptualizing
-            delightful visual experiences for all that in-turn empower &amp;
-            engage users. currently <code>𝕀ℝ░</code> working on various projects
-            in various areas of art and computer science, within{' '}
-            <NextLink href="https://dsc.gg/entrypoint" passHref>
-              <Link>An🎙️Entrypoint</Link>
-            </NextLink>
-            .
+            A Creative, innovative individual, I have a deep-seated passion for
+            creating visually stunning experiences that captivate and engage
+            users. I am constantly pushing the boundaries of art and computer
+            science, working on a variety of projects within different
+            communities. My work is driven by the desire to create something new
+            and exciting, while also providing an enjoyable and educational
+            experience for all. I am always looking for ways to innovate and
+            improve upon existing ideas, striving to make something truly unique
+            and special. I contain full enthusiasm my craft is evident in every
+            project I take on, as I strive to make something that will be
+            remembered and appreciated by all who experience it.
           </Paragraph>
-          <br />
-          <Paragraph>
-            <code>𝕀ℝ░</code> has a{' '}
-            <NextLink
-              href="https://www.guilded.gg/r/zzNRgkYnvR?i=dVbZbQ5d"
-              passHref
-            >
-              <Link>kinda unused bungalow</Link>
-            </NextLink>
-            .<code>𝕀ℝ░</code> do tests but i've grown quite organized since
-            using it.
-            <code>𝕀ℝ░</code> think this is bc with cord you can only truly
-            enjoy it when you has nitro <code>a.k.a</code>...which is a scam...
-            so instead
-            <code>𝕀ℝ░</code> a telegram OG. i think it's waaaay better than
-            cord. you can stay tuned exclusively here:{' '}
-            <NextLink href="https://t.me/probablentry" passHref>
-              <Link>
-                <code>@probablentry</code>
-              </Link>
-            </NextLink>
-          </Paragraph>
-          <br />
           <Box align="center" my={4}>
             <NextLink href="/works" passHref>
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                ｓｔｕｆｆ　<code>𝕀ℝ░</code> ｄｏ　怨果パ
+              <Button colorScheme="teal">
+                <code>𝕨𝕠𝕣𝕜𝕤</code>
               </Button>
             </NextLink>
           </Box>
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Ｏｒｉｇｉｎｓ　囲ひ員
+            𝕓𝕣𝕚𝕖𝕗 𝕓𝕚𝕠 ✍🏾
           </Heading>
           <BioSection>
-            <BioYear>１９９０　慰ガホ</BioYear>
+            <BioYear>𝟙𝟡𝟡𝟘</BioYear>
             <br />
             Spawned 🧑🏾‍🍼 in a EU-west server.
           </BioSection>
           <BioSection>
-            <BioYear>２００８　ユす流</BioYear>
+            <BioYear>𝟚𝟘𝟘𝟠</BioYear>
             <br />
             Hurricane Katrina Relief via school 🏈 team
           </BioSection>
           <BioSection>
-            <BioYear>２０１４　キ音せ</BioYear>
+            <BioYear>𝟚𝟘𝟙𝟜</BioYear>
             <br />
-            Completed the BSc for Digital Media @{' '}
+            Completed the BSc in Digital Media @{' '}
             <a href="https://www.port.ac.uk/">UoP</a>.
           </BioSection>
           <BioSection>
-            <BioYear>２０１５⊶２２　やサ何</BioYear>
+            <BioYear>𝟚𝟘𝟙𝟝⊶𝟚𝟚</BioYear>
             <br />
-            Worked as a Media Developer @{' '}
+            Worked as a Private Contractor @{' '}
             <a href="https://www.gov.uk/government/organisations/ministry-of-defence">
               MoD
             </a>
           </BioSection>
           <BioSection>
-            <BioYear>~/ｎｏｗ　っラぇ</BioYear>
+            <BioYear>~/𝕟𝕠𝕨</BioYear>
             <br />
-            ｒｉｇｈｔ░ｈｅｒｅ🧘🏾
+            𝕣𝕚𝕘𝕙𝕥 𝕙𝕖𝕣𝕖🧘🏾
           </BioSection>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            ❤️‍🔥Ｈｏｂｂｉｅｓ　アじニ
+            ℍ𝕠𝕓𝕓𝕚𝕖𝕤 ❤️‍🔥
           </Heading>
           <Accordion>
             <AccordionItem>
               <h2>
                 <AccordionButton>
                   <Box flex="1" textAlign="left">
-                    <Link href="https://youtu.be/vqgODEkEFeQ">Art🎨</Link>
+                    <Link href="https://youtu.be/vqgODEkEFeQ">𝔸𝕣𝕥🎨</Link>
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                now 𝕀ℝ░ wouldn't call myself an <code>artist</code>, but ig 𝕀ℝ░
-                now.
+                now I wouldn't call myself an <code>artist</code>, but ig i'm
+                wrong 🙄
               </AccordionPanel>
             </AccordionItem>
 
@@ -203,15 +181,15 @@ const Page = () => {
                   <Box flex="1" textAlign="left">
                     <Link href="https://vimeo.com/manage/videos/333606696">
                       {' '}
-                      Music🎧
+                      𝕄𝕦𝕤𝕚𝕔🎧
                     </Link>
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                𝕀ℝ░ mean on the technical side of things i would have to to say,
-                because 𝕀ℝ░ dance and feel musical 𝕀ℝ░ <code>musician</code>
+                On the technical side of things I would have to to say, because
+                I'm a dancer and feel musical...<code>musician</code>
               </AccordionPanel>
             </AccordionItem>
 
@@ -221,14 +199,14 @@ const Page = () => {
                   <Box flex="1" textAlign="left">
                     <Link href="https://www.youtube.com/embed/yGxexLnakQ4">
                       {' '}
-                      Dancing 🕺🏾
+                      𝔻𝕒𝕟𝕔𝕚𝕟𝕘 🕺🏾
                     </Link>
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                ever since 𝕀ℝ░ could remember 𝕀ℝ░ considered myself a
+                ever since I could remember I considered myself a
                 <code>dancer</code>
               </AccordionPanel>
             </AccordionItem>
@@ -239,7 +217,7 @@ const Page = () => {
                   <Box flex="1" textAlign="left">
                     <Link href="https://www.youtube.com/shorts/4VfOjGv1xk4">
                       {' '}
-                      Filmography🤳🏾
+                      ℂ𝕚𝕟𝕖𝕞𝕒𝕥𝕠𝕘𝕣𝕒𝕡𝕙𝕪🤳🏾
                     </Link>
                   </Box>
                   <AccordionIcon />
@@ -247,7 +225,7 @@ const Page = () => {
               </h2>
               <AccordionPanel pb={4}>
                 there is something about <code>filmography</code> and it's vast
-                spectrum throughout life 𝕀ℝ░ continued to peer into
+                spectrum throughout life I have continued to peer into
               </AccordionPanel>
             </AccordionItem>
 
@@ -256,7 +234,7 @@ const Page = () => {
                 <AccordionButton>
                   <Box flex="1" textAlign="left">
                     <Link href="https://www.youtube.com/watch?v=VQeiwBYj240&list=PL8AT6MsTVpK2ZidSIELJDvJ-jgWcEuNOw">
-                      Travel✈️
+                      𝕋𝕣𝕒𝕧𝕖𝕝✈️
                     </Link>
                   </Box>
                   <AccordionIcon />
@@ -274,14 +252,14 @@ const Page = () => {
                   <Box flex="1" textAlign="left">
                     <Link href="https://youtu.be/YBqlwHKjQ4A?t=10011">
                       {' '}
-                      Games🕹️
+                      𝔾𝕒𝕞𝕖𝕤🕹️
                     </Link>
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                since sega and sonic 𝕀ℝ░ been hooked on <code>games</code> and
+                since sega and sonic I've been hooked on <code>games</code> and
                 how they tick
               </AccordionPanel>
             </AccordionItem>
@@ -290,7 +268,7 @@ const Page = () => {
               <h2>
                 <AccordionButton>
                   <Box flex="1" textAlign="left">
-                    <Link href="https://hackmd.io/@irb0gie"> Writing📝</Link>
+                    <Link href="https://hackmd.io/@irb0gie">𝕎𝕣𝕚𝕥𝕚𝕟𝕘📝</Link>
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
@@ -307,7 +285,7 @@ const Page = () => {
                   <Box flex="1" textAlign="left">
                     <Link href="https://www.youtube.com/watch?v=tb6bUYpM1_0">
                       {' '}
-                      Podcasts🎙️
+                      ℙ𝕠𝕕𝕔𝕒𝕤𝕥𝕤🎙️
                     </Link>
                   </Box>
                   <AccordionIcon />
@@ -315,7 +293,7 @@ const Page = () => {
               </h2>
               <AccordionPanel pb={4}>
                 this is kinda a new frontier for me ngl like it's a new playing
-                field....putting it all together vibes inni
+                field....putting it all together vibes innit 😅
               </AccordionPanel>
             </AccordionItem>
           </Accordion>

@@ -9,35 +9,35 @@ export const CurrentWork = () => (
   <>
     <Section delay={0.2}>
       <Heading as="h3" fontSize={20} mb={4}>
-        ｃｕｒｒｅｎｔ　ｗｏｒｋｓ　哀ト億
+        𝕔𝕦𝕣𝕣𝕖𝕟𝕥 𝕨𝕠𝕣𝕜𝕤
       </Heading>
     </Section>
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section delay={0.3}>
         <WorkGridItem
-          id="the-set"
-          title="Ｔｈｅ　ｓｅｔ　ヅ愛彙"
-          thumbnail={setThumb}
-        ></WorkGridItem>
-      </Section>
-      <Section delay={0.3}>
-        <WorkGridItem
           id="numbers"
-          title="２４７４２０　愛マ化"
+          title="𝟚𝟜𝟟𝟜𝟚𝟘"
           thumbnail={numbersThumb}
         ></WorkGridItem>
       </Section>
       <Section delay={0.3}>
         <WorkGridItem
-          id="stepping-into-the-ether"
-          title="Ｓ.Ｉ.Ｔ.Ξ.　奥臆演"
+          id="the-set"
+          title="𝕋𝕙𝕖 𝕤𝕖𝕥"
+          thumbnail={setThumb}
+        ></WorkGridItem>
+      </Section>
+      <Section delay={0.3}>
+        <WorkGridItem
+          id="site"
+          title="𝕊.𝕀.𝕋.Ξ"
           thumbnail={mv2Thumb}
         ></WorkGridItem>
       </Section>
       <Section delay={0.4}>
         <WorkGridItem
           id="cirque-de-soleil"
-          title="Ｃ.Ｄ.Ｓ.　竹ヮの"
+          title="ℂ.𝔻.𝕊"
           thumbnail={mv1Thumb}
         ></WorkGridItem>
       </Section>

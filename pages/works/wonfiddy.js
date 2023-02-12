@@ -17,8 +17,7 @@ const Work = () => (
   <Layout title="wonfiddy">
     <Container my={56}>
       <Title>
-        １５０．ｅｔｈ　因ぅ泳{''}{' '}
-        <Badge> ２０１７~ｃｕｒｒｅｎｔ　ヾ暗づ</Badge>
+        𝕨𝕠𝕟𝕗𝕚𝕕𝕕𝕪.𝕖𝕥𝕙{''} <Badge>𝟚𝟘𝟙𝟟 - 𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <WorkImage src="/images/works/wonfiddy.png" alt="the W" />
       <P>
@@ -75,13 +74,6 @@ const Work = () => (
           <Meta>Platform</Meta>
           <span>Web3 metaverse</span>
         </ListItem>
-        {/* <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="">
-            How I’ve Attracted The First 500 Paid Users For My SaaS That Costs
-            $5/mo <ExternalLinkIcon mx="2px"/>
-          </Link>
-        </ListItem> */}
       </List>
     </Container>
   </Layout>

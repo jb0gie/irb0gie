@@ -23,14 +23,14 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={genie} alt="genie" width="20" height="20" />
+          {/* <Image src={genie} alt="genie" width="20" height="20" /> */}
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily="M PLUS Rounded 1c"
             fontWeight="bold"
             ml={3}
           >
-            ｓｚａｂｏ０ｇｅｎｉｅ　そゼゅ
+            𝕤𝕫𝕒𝕓𝕠❍𝕘𝕖𝕟𝕚𝕖
           </Text>
         </LogoBox>
       </a>

@@ -18,7 +18,7 @@ const MetaBogie = () => {
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
   const [target] = useState(new THREE.Vector3(0, 1.5, 0))
-  const [initialCameraPosition] = useState(new THREE.Vector3(0, 0, 2))
+  const [initialCameraPosition] = useState(new THREE.Vector3(0, 0, 3))
   const [scene] = useState(new THREE.Scene())
   const [_controls, setControls] = useState()
 
@@ -67,16 +67,16 @@ const MetaBogie = () => {
 
       const dracoLoader = new DRACOLoader()
       dracoLoader.setDecoderPath('three/examples/js/libs/draco')
-
       const loader = new GLTFLoader()
       loader.setDRACOLoader(dracoLoader)
       loader.load(
-        '/m3tab0gie.glb',
+        '/szb0gn-w-nask.glb',
         function (gltf) {
           const model = gltf.scene
           model.position.set(0, 0, 0)
-          mixer = new THREE.AnimationMixer(model)
           scene.add(model)
+          mixer = new THREE.AnimationMixer(model)
+          mixer.clipAction(gltf.animations[0]).play()
           animate()
           setLoading(false)
         },
