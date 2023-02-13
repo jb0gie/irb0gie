@@ -4,7 +4,7 @@ import { WorkGridItem } from './grid-item'
 import mgThumb from '../public/images/works/metagame.png'
 import mdThumb from '../public/images/works/mdThumb.png'
 import wonfiddyThumb from '../public/images/works/wonfiddy.png'
-import mbThumb from '../public/images/works/mb-logo.png'
+import mbThumb from '../public/images/works/mbThumb.png'
 import vcgThumb from '../public/images/works/vcgThumb.png'
 
 export const Collabs = () => (
