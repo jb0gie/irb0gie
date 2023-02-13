@@ -8,8 +8,7 @@ const Work = () => (
   <Layout title="MusicVid1">
     <Container my={56}>
       <Title>
-        Ｃ.Ｄ.Ｓ.　竹ヮのは
-        <Badge>ｃｕｒｒｅｎｔ　を挨リ</Badge>
+        ℂ.𝔻.𝕊 <Badge>ℂ𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <P>
         my cousin's {''}

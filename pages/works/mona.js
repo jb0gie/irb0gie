@@ -8,23 +8,21 @@ const Work = () => (
   <Layout title="Mona Job">
     <Container my={56}>
       <Title>
-        Ｍｏｎａ　が欧生<Badge>ｎｏｖ２１－ｄｅｃ２１　意のね</Badge>
+        𝕄𝕠𝕟𝕒<Badge>ℕ𝕆𝕍-𝔻𝔼ℂ𝟚𝟙</Badge>
       </Title>
       <P>
         <Link href="https://dsc.gg/entrypoint">
           <code>An🎙️Entrypoint</code>
         </Link>{' '}
-        memebers : b0gie, lan, makesi &amp; ev0 signed up for the{' '}
+        memebers : b0gie, lanmower, guru anansi &amp; evo256 signed up for the{' '}
         <Link href="https://monaverse.com">monaverse</Link>{' '}
         <code>build-a-thon</code> where we constructed a world in unity and
-        minted it on polygon.
-      </P>
-      <P>
-        we placed 🥉 and we won a prize of{' '}
+        minted it on polygon. We placed 🥉 and we won a prize of{' '}
         <Link href="https://polygonscan.com/tx/0x807cd11d89dce66f5121834453ecfa6d1b9e4be16368a73ad3eef51c43ee3309">
           0.3314Ξ{' '}
         </Link>
       </P>
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>
