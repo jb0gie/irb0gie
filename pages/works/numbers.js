@@ -8,20 +8,20 @@ const Work = () => (
   <Layout title="numbers">
     <Container my={56}>
       <Title>
-        ２４７４２０　愛マ化<Badge>ｃｕｒｒｅｎｔ　を挨リ</Badge>
+        𝟚𝟜𝟟𝟜𝟚𝟘 <Badge>𝕟𝕒𝕠</Badge>
       </Title>
       <P>
-        <Link href="https://about.247420.xyz">
-          <code>247420</code>
+        <Link href="247420.xyz">
+          <code>NUMB3RS</code>
         </Link>{' '}
-        is the code to an entrypoint known formally as <code>nao</code>.
-        we are always here nao. nao is all we have.
+        is the code to an entrypoint known formally as <code>nao</code>. we are
+        always here nao. nao is all we have.
       </P>
       <br />
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>
-          <Link href="https://247420.xyz/">
+          <Link href="https://dsc.gg/entrypoint">
             an entrypoint
             <ExternalLinkIcon mx="2px" />
           </Link>

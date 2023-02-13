@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="𝕍ℂ𝔾">
     <Container my={56}>
       <Title>
-        𝕍𝕖𝕘𝕒𝕤 ℂ𝕣𝕪𝕡𝕥𝕠 𝔾𝕣𝕠𝕦𝕡<Badge>𝔻𝔼ℂ𝟙|𝟚𝟚 - 𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
+        𝕍𝕖𝕘𝕒𝕤 ℂ𝕣𝕪𝕡𝕥𝕠 𝔾𝕣𝕠𝕦𝕡 <Badge>𝔻𝔼ℂ𝟚𝟚 - 𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <P>
         <Link href="https://vegascryptogroup.com/">

@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="swagtag">
     <Container my={56}>
       <Title>
-        swagtag <Badge>ｄｅｃ２１－ｊａｎ２２　ト依ピ</Badge>
+        𝕤𝕨𝕒𝕘𝕥𝕒𝕘 <Badge>𝔻𝔼ℂ𝟚𝟙 - 𝕁𝔸ℕ𝟚𝟚</Badge>
       </Title>
       <P>
         a <Link href="https://moralis.io/avalanche-hackathon/">hackathon</Link>{' '}

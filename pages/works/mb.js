@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Meta-Builders">
     <Container my={56}>
       <Title>
-        𝕄𝕖𝕥𝕒-𝕓𝕦𝕚𝕝𝕕𝕖𝕣𝕤<Badge>𝕊𝔼ℙ𝟛𝟘|𝟚𝟚 - 𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
+        𝕄𝕖𝕥𝕒-𝕓𝕦𝕚𝕝𝕕𝕖𝕣𝕤<Badge>𝕊𝔼ℙ𝟚𝟚 - 𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <P>
         <Link href="https://meta-builders.com">

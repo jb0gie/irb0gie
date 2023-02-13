@@ -5,20 +5,18 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Urbánika">
+  <Layout title="𝕌𝕣𝕓á𝕟𝕚𝕜𝕒">
     <Container my={56}>
       <Title>
-        Kin Urbánika <Badge>ｃｕｒｒｅｎｔ　ホラ謁</Badge>
+        𝕂𝕚𝕟 𝕌𝕣𝕓á𝕟𝕚𝕜𝕒 <Badge>ℂ𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <P>
         operates through an immersive video course guide on using and applying
-        decentralized coordination tools and techniques at local urban DAOs.
-      </P>
-
-      <P>
-        the goal is to guide activists into regenerating and re-imagining cities
+        decentralized coordination tools and techniques at local urban DAOs. the
+        goal is to guide activists into regenerating and re-imagining cities
         through a <code>solar~punk</code> and crypto-commons-based perspective.
       </P>
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>

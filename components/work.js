@@ -27,3 +27,4 @@ export const Meta = ({ children }) => (
   </Badge>
 )
 //seven dwarfs theme music...yeah ik a lil dark
+//wtf was i thinking about

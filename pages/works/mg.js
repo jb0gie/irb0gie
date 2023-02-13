@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="MG🐙">
     <Container my={56}>
       <Title>
-        𝕄𝕖𝕥𝕒𝔾𝕒𝕞𝕖🐙<Badge>𝔻𝔼ℂ𝟛𝟘|𝟚𝟘 - 𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
+        𝕄𝕖𝕥𝕒𝔾𝕒𝕞𝕖🐙<Badge>𝔻𝔼ℂ𝟚𝟘 - 𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <P>A Massive Online Coordination Game</P>
       <blockquote>

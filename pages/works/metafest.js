@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Ｍｅｔａｆｅｓｔ🐙２　曖者艶">
     <Container my={56}>
       <Title>
-        Metafest🐙2 <Badge>ｊｕｎ９~２３, ２０２２　維内ク</Badge>
+        𝕄𝕖𝕥𝕒𝕗𝕖𝕤𝕥🐙𝟚 <Badge>𝕁𝕌ℕ𝟚𝟚</Badge>
       </Title>
       <P>A virtual festival &amp; conference</P>
       <blockquote>

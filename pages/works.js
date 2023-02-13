@@ -5,7 +5,7 @@ import RecentWork from '../components/recent-work'
 import Collabs from '../components/collabs'
 // import PastWork from '../components/past-work'
 const Works = () => (
-  <Layout title="ｗｏｒｋｓ　ス遠温">
+  <Layout title="𝕨𝕠𝕣𝕜𝕤">
     <Container my={56}>
       <CurrentWork />
       <RecentWork />

@@ -8,8 +8,7 @@ const Work = () => (
   <Layout title="NAMEJEFF">
     <Container my={56}>
       <Title>
-        ｍｙ　ｎａｍｅ　ｉｓ　ｊｅｆｆ　ムニグ羽{' '}
-        <Badge>ｊｕｎ２２　むもブ</Badge>
+        𝕄𝕪 𝕟𝕒𝕞𝕖 𝕚𝕤 𝕛𝕖𝕗𝕗 <Badge>𝕁𝕌ℕ𝟚𝟚</Badge>
       </Title>
       <P>
         <code>this</code> is a web application built using {''}

@@ -8,8 +8,7 @@ const Work = () => (
   <Layout title="MusicVid1">
     <Container my={56}>
       <Title>
-        𝕋𝕙𝕖 𝕤𝕖𝕥
-        <Badge>𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
+        𝕋𝕙𝕖 𝕤𝕖𝕥 <Badge>𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <P>
         This is a first for me, making a <code>game</code> well it's more of a

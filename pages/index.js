@@ -28,7 +28,7 @@ import { BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 const Page = () => {
   return (
-    <Layout title="ｂｉｏ">
+    <Layout title="𝕓𝕚𝕠">
       <Container my={56}>
         <Box
           borderRadius="xl"

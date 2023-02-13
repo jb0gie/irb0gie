@@ -8,16 +8,17 @@ const Work = () => (
   <Layout title="MusicVid2">
     <Container my={56}>
       <Title>
-        Ｓ.Ｉ.Ｔ.Ξ.
-        <Badge>ｃｕｒｒｅｎｔ　を挨リ</Badge>
+        Ｓ.Ｉ.Ｔ.Ξ. <Badge>𝔸𝕌𝔾𝟚𝟚 - ℂ𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <P>
-        after running with the meta-builders for a lil while i met a new fren
-        who made this {' '}
+        After running with the meta-builders for a lil while i met a new fren
+        who made this{' '}
         <Link href="https://audius.co/FellenzMusic/stepping-into-the-ether">
           <code>audius track</code>
         </Link>{' '}
-        after hearing this i decided i'm making another music video in blender.
+        after hearing this i decided i'm making another music video in
+        blender. So blender renders take forever and since discovering NEOS mods
+        we have taken the load off prod time.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -44,7 +45,7 @@ const Work = () => (
         </ListItem>
       </List>
       <WorkImage
-        src="/images/works/mv1Thumb.png"
+        src="/images/works/siteWrk1.png"
         alt="another snippet of the hallway ir built"
       />
     </Container>

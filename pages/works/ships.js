@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="🚢Ships 🛳️Boats 🛶Vessels">
     <Container my={56}>
       <Title>
-        🚢Ｓｈｉｐｓ　🛳️Ｂｏａｔｓ　🛶Ｖｅｓｓｅｌｓ　臆ビ曖
+        🚢𝕤𝕙𝕚𝕡𝕤🛳️𝕓𝕠𝕒𝕥𝕤 🛶𝕧𝕖𝕤𝕤𝕖𝕝𝕤
         <Badge>２０１６</Badge>
       </Title>
       <P>

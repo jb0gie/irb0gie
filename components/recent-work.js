@@ -6,44 +6,34 @@ import jeffThumb from '../public/images/works/jeff.png'
 import mfThumb from '../public/images/works/mf2-logo.png'
 import swagtagThumb from '../public/images/works/swagtag.png'
 import monaThumb from '../public/images/works/monaThumb.png'
+import mv1Thumb from '../public/images/works/mv1thumb.png'
+
 import pendingThumb from '../public/images/works/pending.png'
 export const RecentWork = () => (
   <>
     <Section delay={0.4}>
       <Divider my={6} />
       <Heading as="h3" fontSize={20} mb={4}>
-        ｒｅｃｅｎｔ　ｗｏｒｋｓ　ゝ科ぷ
+        ℝ𝕖𝕔𝕖𝕟𝕥 𝕨𝕠𝕣𝕜𝕤
       </Heading>
     </Section>
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section delay={0.5}>
-        <WorkGridItem
-          id="namejeff"
-          title="ｎａｍｅ　ｊｅｆｆ　ムニグ羽"
-          thumbnail={jeffThumb}
-        >
+        <WorkGridItem id="namejeff" title="𝕟𝕒𝕞𝕖𝕛𝕖𝕗𝕗" thumbnail={jeffThumb}>
           thought i'd try out <code>astro.dev</code> out.
         </WorkGridItem>
       </Section>
       <Section delay={0.5}>
-        <WorkGridItem
-          id="kin"
-          title="Ｕｒｂáｎｉｋａ　唄たぶ"
-          thumbnail={kinThumb}
-        >
+        <WorkGridItem id="kin" title="𝕌𝕣𝕓á𝕟𝕚𝕜𝕒" thumbnail={kinThumb}>
           a propaganda machine for the <code>crypto-commons</code>.
         </WorkGridItem>
       </Section>
       <Section delay={0.6}>
-        <WorkGridItem
-          id="metafest"
-          title="Ｍｅｔａｆｅｓｔ🐙２　曖者艶"
-          thumbnail={mfThumb}
-        >
+        <WorkGridItem id="metafest" title="𝕄𝕖𝕥𝕒𝔽𝕖𝕤𝕥𝟚" thumbnail={mfThumb}>
           Live event, Powered by Metagame🐙 <pre>JUN9~23</pre>
         </WorkGridItem>
       </Section>
-      <Section delay={0.6}>
+      {/* <Section delay={0.6}>
         <WorkGridItem
           id="hyperwebchat"
           title="ｈｙｐｅｒ~ｗｅｂｃｈａｔ　ぢど液"
@@ -51,27 +41,22 @@ export const RecentWork = () => (
         >
           yet another <code>internet breaking</code> entrypoint project
         </WorkGridItem>
-      </Section>
+      </Section> */}
       <Section delay={0.7}>
-        <WorkGridItem
-          id="swagtag"
-          title="ｓｗａｇｔａｇ　ぁビ萎"
-          thumbnail={swagtagThumb}
-        >
+        <WorkGridItem id="swagtag" title="𝕤𝕨𝕒𝕘𝕥𝕒𝕘" thumbnail={swagtagThumb}>
           <del>swagtag - instant domains</del>{' '}
-          <del>
-            <pre>then adaptogen</pre>
-          </del>
+          <del><pre>then adaptogen</pre></del>{' '}
           <pre>now hyper~bolic</pre>
         </WorkGridItem>
       </Section>
       <Section delay={0.8}>
-        <WorkGridItem
-          id="mona"
-          title="Ｍｏｎａ　が欧生"
-          thumbnail={monaThumb}
-        >
+        <WorkGridItem id="mona" title="𝕄𝕠𝕟𝕒" thumbnail={monaThumb}>
           🥉 place winner in a hackathon
+        </WorkGridItem>
+      </Section>
+      <Section delay={0.8}>
+        <WorkGridItem id="cirque-de-soleil" title="ℂ.𝔻.𝕊" thumbnail={mv1Thumb}>
+          A worthwhile experiment in which I gained immeasurable EXP.
         </WorkGridItem>
       </Section>
     </SimpleGrid>
