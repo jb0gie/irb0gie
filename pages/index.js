@@ -25,7 +25,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+// import { ChevronRightIcon } from '@chakra-ui/icons'
 const Page = () => {
   return (
     <Layout title="𝕓𝕚𝕠">
