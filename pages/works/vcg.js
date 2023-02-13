@@ -5,63 +5,50 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Meta-Builders">
+  <Layout title="𝕍ℂ𝔾">
     <Container my={56}>
       <Title>
-        𝕄𝕖𝕥𝕒-𝕓𝕦𝕚𝕝𝕕𝕖𝕣𝕤<Badge>𝕊𝔼ℙ𝟛𝟘|𝟚𝟚 - 𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
+        𝕍𝕖𝕘𝕒𝕤 ℂ𝕣𝕪𝕡𝕥𝕠 𝔾𝕣𝕠𝕦𝕡<Badge>𝔻𝔼ℂ𝟙|𝟚𝟚 - 𝕔𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <P>
-        <Link href="https://meta-builders.app">
-          <code>Meta-builders</code>
+        <Link href="https://vegascryptogroup.com/">
+          <code>Vegas Crypto Group</code>
         </Link>{' '}
-        is a group of individuals with the aligned mission of empowering each
-        other, growing together, and make the world a better place to live in.
-        as this groups <code>techshaman, 𝕀ℝ░</code>
-        has taken up the responsibility of making this brand stand out amongst
-        the crowd
+        is a meetup group that brings together individuals passionate about
+        self-ownership, free exchange, and emerging technology in the
+        decentralized and transparent Bitcoin and cryptocurrency community.
       </P>
       <br />
-      <P>
-        at the end of <code>SEPT</code> MB⛑️ launched on{' '}
-        <Link href="https://app.daohaus.club/dao/0x1/0x049a4dc8406a65ff3e6690dfb264fc70d9ab6caa">
-          Y33TER
-        </Link>
-        and officially became a DAO.
-      </P>
       <br />
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>
-          <Link href="https://meta-builders.app/">
-            Meta-builders
+          <Link href="meetup.com/Vegas-Crypto-Meetup/">
+            VCG on Meetup
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>The Internet</span>
+          <span>The Internet, IRL</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Metaverse</span>
+          <span>Web3</span>
         </ListItem>
-        <ListItem>
+        {/* <ListItem>
           <Meta>Blogpost</Meta>
-          <Link href="https://smart752.substack.com/p/meta-builders-unite">
+          <Link href="#">
             Newsletter
             <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>
+        </ListItem> */}
       </List>
-      <WorkImage src="/images/works/mbWork.png" alt="what astro looks like" />
-      <WorkImage
-        src="/images/works/mbWork2.png"
-        alt="the page go visit it NOW"
-      />
-      <WorkImage
-        src="/images/works/mbWork3.png"
-        alt="the page go visit it NOW"
-      />
+      <WorkImage src="/images/works/vcgWrk5.png" alt="Visting VCG in hyperfy" />
+      <WorkImage src="/images/works/vcgWrk1.jpg" alt="CMR and Edge Wallet" />
+      <WorkImage src="/images/works/vcgWrk2.png" alt="CMR 2022 day 1" />
+      <WorkImage src="/images/works/vcgWrk3.jpg" alt="CMR 2022 day 1" />
+      <WorkImage src="/images/works/vcgWrk4.png" alt="CMR 2022 day 2" />
     </Container>
   </Layout>
 )
