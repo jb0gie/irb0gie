@@ -100,19 +100,29 @@ const Page = () => {
           <Heading as="h2" variant="section-title">
             <code>𝕤𝕫𝕒𝕓𝕠❍𝕘𝕖𝕟𝕚𝕖</code>
           </Heading>
+          <br />
           <Paragraph>
             A Creative, innovative individual, I have a deep-seated passion for
             creating visually stunning experiences that captivate and engage
             users. I am constantly pushing the boundaries of art and computer
             science, working on a variety of projects within different
-            communities. My work is driven by the desire to create something new
-            and exciting, while also providing an enjoyable and educational
+            communities.
+          </Paragraph>
+          <br />
+          <Paragraph>
+            My work is driven by the desire to create something new and
+            exciting, while also providing an enjoyable and educational
             experience for all. I am always looking for ways to innovate and
             improve upon existing ideas, striving to make something truly unique
-            and special. I contain full enthusiasm my craft is evident in every
-            project I take on, as I strive to make something that will be
-            remembered and appreciated by all who experience it.
+            and special.
           </Paragraph>
+          <br />
+          <Paragraph>
+            I contain full enthusiasm my craft is evident in every project I
+            take on, as I strive to make something that will be remembered and
+            appreciated by all who experience it.
+          </Paragraph>
+          <br />
           <Box align="center" my={4}>
             <NextLink href="/works" passHref>
               <Button colorScheme="teal">
@@ -171,7 +181,8 @@ const Page = () => {
               </h2>
               <AccordionPanel pb={4}>
                 now I wouldn't call myself an <code>artist</code>, but ig i'm
-                wrong 🙄
+                wrong 🙄. Art is like a good joke - you know it when you see it,
+                but it's hard to explain why it's so damn funny.
               </AccordionPanel>
             </AccordionItem>
 
@@ -189,7 +200,9 @@ const Page = () => {
               </h2>
               <AccordionPanel pb={4}>
                 On the technical side of things I would have to to say, because
-                I'm a dancer and feel musical...<code>musician</code>
+                I'm a dancer and feel musical...<code>musician</code>. Listening
+                to music is like having a personal concert in your own head. And
+                the best part? You don't have to deal with any drunk fans.
               </AccordionPanel>
             </AccordionItem>
 
@@ -206,8 +219,10 @@ const Page = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                ever since I could remember I considered myself a
-                <code>dancer</code>
+                ever since I could remember I considered myself a{' '}
+                <code> dancer</code> Dancing is like a silent conversation
+                between your body and the music. Just make sure your body
+                doesn't say anything too embarrassing.
               </AccordionPanel>
             </AccordionItem>
 
@@ -224,8 +239,11 @@ const Page = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                there is something about <code>filmography</code> and it's vast
-                spectrum throughout life I have continued to peer into
+                there is something about <code>cinematography</code> and it's
+                vast spectrum throughout life I have continued to peer into.
+                Watching a well-shot movie is like going on a visual
+                rollercoaster ride. Just don't forget to grab some popcorn for
+                the journey.
               </AccordionPanel>
             </AccordionItem>
 
@@ -242,7 +260,9 @@ const Page = () => {
               </h2>
               <AccordionPanel pb={4}>
                 having a lucky childhood means frequent <code>travel</code> and
-                resets
+                resets. Traveling is like a choose-your-own-adventure book, but
+                with better scenery and fewer chances of getting eaten by a
+                grue.
               </AccordionPanel>
             </AccordionItem>
 
@@ -260,7 +280,8 @@ const Page = () => {
               </h2>
               <AccordionPanel pb={4}>
                 since sega and sonic I've been hooked on <code>games</code> and
-                how they tick
+                how they tick. Playing games is like being a superhero, but with
+                fewer actual superpowers and more button-mashing.
               </AccordionPanel>
             </AccordionItem>
 
@@ -275,7 +296,9 @@ const Page = () => {
               </h2>
               <AccordionPanel pb={4}>
                 <code>writing</code> is as important as listening which 𝕀ℝ░
-                consider a sacred art.
+                consider a sacred art. Writing is like putting together a
+                puzzle, except the pieces are words and the picture is whatever
+                you can imagine.
               </AccordionPanel>
             </AccordionItem>
 
@@ -293,7 +316,10 @@ const Page = () => {
               </h2>
               <AccordionPanel pb={4}>
                 this is kinda a new frontier for me ngl like it's a new playing
-                field....putting it all together vibes innit 😅
+                field....putting it all together vibes innit 😅. Broadcasting is
+                like being the captain of a ship, navigating your audience
+                through the choppy waters of current events and human interest
+                stories.
               </AccordionPanel>
             </AccordionItem>
           </Accordion>

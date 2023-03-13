@@ -10,8 +10,9 @@ import thumbDance from '../public/images/contents/b0g-dance.jpg'
 import thumbCreative from '../public/images/contents/b0g-amv.jpg'
 import thumbArticle1 from '../public/images/contents/article1.jpg'
 // import thumbArticle2 from '../public/images/contents/article2.jpg'
+import thumbCmr from '../public/images/contents/cmr2022.jpg'
 const Posts = () => (
-  <Layout title="ｃｏｎｔｅｎｔ　ベド゠">
+  <Layout title="ｃｏｎｔ3ｎｔ　ベド゠">
     <Container my={56}>
       <Heading as="h3" fontSize={20} mb={4} delay={0.1}>
         Vids
@@ -68,7 +69,24 @@ const Posts = () => (
       </Section>
 
       <Section delay={0.5}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}></SimpleGrid>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="CMR2022 day 1 part 1"
+            thumbnail={thumbCmr}
+            href="https://youtube.com/live/bgJ3qnj3Z3Q"
+          />
+          <GridItem
+            title="CMR2022 day 1 part 2"
+            thumbnail={thumbCmr}
+            href="https://youtube.com/live/ihcQ25r1ixs"
+          />
+          <GridItem
+            title="CMR2022 day 2 on Rumble"
+            thumbnail={thumbCmr}
+            href="https://rumble.com/v20k03u-crypto-mindset-reset-virtual-summit-day-2.html"
+          />
+          
+        </SimpleGrid>
       </Section>
     </Container>
   </Layout>
