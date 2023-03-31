@@ -14,28 +14,25 @@ export const CurrentWork = () => (
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section delay={0.3}>
         <WorkGridItem
+          id="site"
+          title="𝕊.𝕀.𝕋.Ξ"
+          thumbnail={mv2Thumb}
+        ></WorkGridItem>
+      </Section>
+      <Section delay={0.3}>
+        <WorkGridItem
           id="numbers"
           title="𝟚𝟜𝟟𝟜𝟚𝟘"
           thumbnail={numbersThumb}
         ></WorkGridItem>
       </Section>
-      <Section delay={0.3}>
+      <Section delay={0.4}>
         <WorkGridItem
           id="the-set"
           title="𝕋𝕙𝕖 𝕤𝕖𝕥"
           thumbnail={setThumb}
         ></WorkGridItem>
       </Section>
-      <Section delay={0.3}>
-        <WorkGridItem
-          id="site"
-          title="𝕊.𝕀.𝕋.Ξ"
-          thumbnail={mv2Thumb}
-        ></WorkGridItem>
-      </Section>
-      {/* <Section delay={0.4}>
-        
-      </Section> */}
     </SimpleGrid>
   </>
 )

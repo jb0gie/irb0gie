@@ -33,7 +33,6 @@ const LinkItem = ({ href, path, children }) => {
     </NextLink>
   )
 }
-
 const Lens = ({ href, children }) => (
   <NextLink href={href} passHref>
     <Link p={2}>{children}</Link>
@@ -52,6 +51,12 @@ const MeetWithWallet = ({ href, children }) => (
     <Link p={2}>
       {children}
     </Link>
+  </NextLink>
+)
+
+const Hyperfy = ({ href, children }) => (
+  <NextLink href={href} passHref>
+    <Link p={2}>{children}</Link>
   </NextLink>
 )
 
@@ -103,7 +108,7 @@ const Navbar = (props) => {
               />
             </svg>
           </Lens>
-          <MeetWithWallet href="https://meetwithwallet.xyz/web3genie">
+          {/* <MeetWithWallet href="https://meetwithwallet.xyz/web3genie">
             <svg
               viewBox="-13.788 21.474 849.004 402.488"
               width="32"
@@ -138,7 +143,7 @@ const Navbar = (props) => {
                 fill="#F35826"
               ></path>
             </svg>
-          </MeetWithWallet>
+          </MeetWithWallet> */}
           <Mastodon href="https://mastodon.247420.xyz/@irb0gie">
             <svg
               width="32"
@@ -170,6 +175,20 @@ const Navbar = (props) => {
               </defs>
             </svg>
           </Mastodon>
+          <Hyperfy href="https://hyperfy.io/thegame">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 300 300"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M149.882 287.948L150 288L150 287.948L235.841 131.604C239.255 125.314 234.719 117.649 227.582 117.649L150 117.649V11.0522L150.114 11.0522L150 11L150 11.0522L64.1593 167.396C60.7453 173.686 65.2813 181.351 72.4175 181.351H150V287.948H149.882Z"
+                fill="white"
+              />
+            </svg>
+          </Hyperfy>
           <LinkItem href="/works" path={path}>
             𝕨𝕠𝕣𝕜𝕤
           </LinkItem>

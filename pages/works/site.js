@@ -11,7 +11,7 @@ const Work = () => (
         Ｓ.Ｉ.Ｔ.Ξ. <Badge>𝔸𝕌𝔾𝟚𝟚 - ℂ𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
       <P>
-        After running with the meta-builders for a lil while i met a new fren
+        After running with the meta-builders for a lil while I met a new fren
         who made this{' '}
         <Link href="https://audius.co/FellenzMusic/stepping-into-the-ether">
           <code>audius track</code>
@@ -19,6 +19,11 @@ const Work = () => (
         after hearing this i decided i'm making another music video in
         blender. So blender renders take forever and since discovering NEOS mods
         we have taken the load off prod time.
+      </P>
+      <P>
+        NEOS is great and all but with the dawn of <code>UEFN</code> it's was time to 
+        step into the unreal engine 5.1. This project pushes my skills to new limits that were previously 
+        unattainable.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -34,7 +39,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Blender, NEOS</span>
+          <span>Blender, NEOS, UE5</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
@@ -46,6 +51,14 @@ const Work = () => (
       </List>
       <WorkImage
         src="/images/works/siteWrk1.png"
+        alt="another snippet of the hallway ir built"
+      />
+      <WorkImage
+        src="/images/works/siteWrk2.png"
+        alt="another snippet of the hallway ir built"
+      />
+      <WorkImage
+        src="/images/works/siteWrk3.png"
         alt="another snippet of the hallway ir built"
       />
     </Container>

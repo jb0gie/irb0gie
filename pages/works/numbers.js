@@ -32,7 +32,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Blender, Unity, OBS, NDI, VDO</span>
+          <span>Blender, Hyperfy, Unity, UE5, OBS, NDI, VDO</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
