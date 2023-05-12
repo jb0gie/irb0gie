@@ -12,6 +12,13 @@ export const CurrentWork = () => (
       </Heading>
     </Section>
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      {/* <Section delay={0.3}>
+        <WorkGridItem
+          id="chill"
+          title="ℂ𝕙𝕚𝕝𝕝𝕚𝕟𝕘ℂ𝕙𝕚𝕝𝕚𝕫"
+          thumbnail={chillThumb}
+        ></WorkGridItem>
+      </Section> */}
       <Section delay={0.3}>
         <WorkGridItem
           id="site"

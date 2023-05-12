@@ -26,7 +26,7 @@ const LinkItem = ({ href, path, children }) => {
       <Link
         p={2}
         bg={active ? 'glassTeal' : undefined}
-        color={active ? '#202023' : inactiveColor}
+        color={active ? '#247420' : inactiveColor}
       >
         {children}
       </Link>
@@ -212,10 +212,10 @@ const Navbar = (props) => {
                   <MenuItem as={Link}>❓ ｈｕｈ　内謁履</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>ｗｏｒｋｓ　ゆヰげ</MenuItem>
+                  <MenuItem as={Link}>𝕨𝕠𝕣𝕜𝕤</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>📼 ｌｏｇ　ワ遠横</MenuItem>
+                  <MenuItem as={Link}>𝕡𝕠𝕤𝕥𝕤</MenuItem>
                 </NextLink>
                 <MenuItem as={Link} href="https://247420.xyz/@6">
                   ｓｏｃｉａｌ　ヒー河

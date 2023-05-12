@@ -20,10 +20,11 @@ const Work = () => (
         blender. So blender renders take forever and since discovering NEOS mods
         we have taken the load off prod time.
       </P>
+      <br />
       <P>
         NEOS is great and all but with the dawn of <code>UEFN</code> it's was time to 
-        step into the unreal engine 5.1. This project pushes my skills to new limits that were previously 
-        unattainable.
+        step into the UE5 This project pushes my skills to new limits that were previously 
+        unattainable. I've learnt so much already and by only scratching the surface it's truly wild.
       </P>
       <List ml={4} my={4}>
         <ListItem>

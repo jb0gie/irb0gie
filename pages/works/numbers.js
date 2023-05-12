@@ -14,8 +14,8 @@ const Work = () => (
         <Link href="247420.xyz">
           <code>NUMB3RS</code>
         </Link>{' '}
-        is the code to an entrypoint known formally as <code>nao</code>. we are
-        always here nao. nao is all we have.
+        is code to an entrypoint known formally as <code>nao</code>. w3lp we're
+        always here nao. w3lp nao is all we have.
       </P>
       <br />
       <List ml={4} my={4}>

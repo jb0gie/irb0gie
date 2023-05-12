@@ -56,7 +56,8 @@ const Page = () => {
               ｂ❍ｇｉｅ/ˈbəʊ.ɡi/
             </Heading>
             <p>
-              Ｓｏｍｅｔｈｉｎｇ ｔｈａｔ ｃａｕｓｅｓ<br />
+              Ｓｏｍｅｔｈｉｎｇ ｔｈａｔ ｃａｕｓｅｓ
+              <br />
               ｆｅａｒ ｗｉｔｈｏｕｔ ｒｅａｓｏｎ.
             </p>
           </Box>
@@ -225,7 +226,6 @@ const Page = () => {
                 doesn't say anything too embarrassing.
               </AccordionPanel>
             </AccordionItem>
-
             <AccordionItem>
               <h2>
                 <AccordionButton>
@@ -246,7 +246,6 @@ const Page = () => {
                 the journey.
               </AccordionPanel>
             </AccordionItem>
-
             <AccordionItem>
               <h2>
                 <AccordionButton>
@@ -265,7 +264,6 @@ const Page = () => {
                 grue.
               </AccordionPanel>
             </AccordionItem>
-
             <AccordionItem>
               <h2>
                 <AccordionButton>
@@ -284,7 +282,6 @@ const Page = () => {
                 fewer actual superpowers and more button-mashing.
               </AccordionPanel>
             </AccordionItem>
-
             <AccordionItem>
               <h2>
                 <AccordionButton>
@@ -301,7 +298,6 @@ const Page = () => {
                 you can imagine.
               </AccordionPanel>
             </AccordionItem>
-
             <AccordionItem>
               <h2>
                 <AccordionButton>

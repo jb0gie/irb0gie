@@ -11,6 +11,7 @@ import thumbCreative from '../public/images/contents/b0g-amv.jpg'
 import thumbArticle1 from '../public/images/contents/article1.jpg'
 // import thumbArticle2 from '../public/images/contents/article2.jpg'
 import thumbCmr from '../public/images/contents/cmr2022.jpg'
+import thumbCmr2 from '../public/images/contents/cmr2023.png'
 const Posts = () => (
   <Layout title="ｃｏｎｔ3ｎｔ　ベド゠">
     <Container my={56}>
@@ -45,14 +46,17 @@ const Posts = () => (
             thumbnail={thumbCreative}
             href="https://youtu.be/6zfHV2bp-rI"
           />
+          {/* <GridItem
+            title=""
+            thumbnail={thumbMcAfee}
+            href=""
+          /> */}
         </SimpleGrid>
       </Section>
-
       <Divider my={6} />
       <Heading as="h3" fontSize={20} mb={4} delay={0.3}>
         Blogs
       </Heading>
-
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
@@ -67,7 +71,11 @@ const Posts = () => (
           /> */}
         </SimpleGrid>
       </Section>
-
+      <Divider my={6} />
+      <Heading as="h3" fontSize={20} mb={4} delay={0.3}>
+        Broadcasts
+      </Heading>
+      <Divider my={6} />
       <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
@@ -85,7 +93,20 @@ const Posts = () => (
             thumbnail={thumbCmr}
             href="https://rumble.com/v20k03u-crypto-mindset-reset-virtual-summit-day-2.html"
           />
-          
+        </SimpleGrid>
+      </Section>
+      <Section delay={0.7}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="CMR2023 day 1 on Rumble"
+            thumbnail={thumbCmr2}
+            href="https://rumble.com/v2iziz6-crypto-mindset-reset-virtual-summit-2-day-1.html"
+          />
+          <GridItem
+            title="CMR2022 day 2 on Rumble"
+            thumbnail={thumbCmr2}
+            href="https://rumble.com/v2j3f0k-crypto-mindset-reset-virtual-summit-2-day-2.html"
+          />
         </SimpleGrid>
       </Section>
     </Container>

@@ -16,6 +16,20 @@ const Work = () => (
         thus far and i cannot wait to actually use in in prod. Ironically
         someone built exactly what I wanted.
       </P>
+      <br />
+      <P>
+        Yeah I completely forget that NEOS with a few tweaks is the ultimate but
+        clunky vtuber camera...for now and that is due to the minting of{' '}
+        <code>thegame</code> on hyperfy which makes life even more easier for
+        vtubing as i can be on the move! Yes you heard it hear{' '}
+        <Link href="https://hyperfy.io">
+          Hyperfy
+        </Link>{''} works on mobile....AND VR!!!
+      </P>
+      <br />
+      <P>
+        Write more about how you love the fact that someone has built a solid base
+      </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>URL</Meta>
@@ -30,7 +44,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Blender, Unity, Frooxius, OBS</span>
+          <span>Blender, Hyperfy, Unity, Frooxius, OBS</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>

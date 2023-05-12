@@ -67,7 +67,7 @@ const MetaBogie = () => {
 
       const dracoLoader = new DRACOLoader()
       dracoLoader.setDecoderPath('three/examples/js/libs/draco')
-      const loader = new GLTFLoader()
+      const loader = new GLTFLoader()b
       loader.setDRACOLoader(dracoLoader)
       loader.load(
         '/szb0gn-w-nask.glb',
