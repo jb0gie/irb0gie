@@ -4,6 +4,7 @@ import { WorkGridItem } from './grid-item'
 import setThumb from '../public/images/works/the-set-logo.png'
 import numbersThumb from '../public/images/works/numbersThumb.png'
 import mv2Thumb from '../public/images/works/mv2Thumb.png'
+import chillThumb from '../public/images/chililogo.png'
 export const CurrentWork = () => (
   <>
     <Section delay={0.2}>
@@ -12,13 +13,13 @@ export const CurrentWork = () => (
       </Heading>
     </Section>
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      {/* <Section delay={0.3}>
+      <Section delay={0.3}>
         <WorkGridItem
           id="chill"
           title="ℂ𝕙𝕚𝕝𝕝𝕚𝕟𝕘ℂ𝕙𝕚𝕝𝕚𝕫"
           thumbnail={chillThumb}
         ></WorkGridItem>
-      </Section> */}
+      </Section>
       <Section delay={0.3}>
         <WorkGridItem
           id="site"

@@ -10,7 +10,10 @@ const Work = () => (
       <Title>
         Chilling Chiliz<Badge>𝔸ℙℝ𝟚𝟚 - ℂ𝕦𝕣𝕣𝕖𝕟𝕥</Badge>
       </Title>
-      <P>After acquiring #VOID</P>
+      <P>
+        After acquiring a certain NFT I embarked on a new journey through
+        discord servers 
+      </P>
       <br />
       <P></P>
       <List ml={4} my={4}>
@@ -27,7 +30,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Blender, NEOS, UE5</span>
+          <span>Blender, NEOS, UE5, Hyperfy</span>
         </ListItem>
         <ListItem>
           <Meta>Official Tweet</Meta>
@@ -38,16 +41,16 @@ const Work = () => (
         </ListItem>
       </List>
       <WorkImage
-        src="/images/works/siteWrk1.png"
-        alt="another snippet of the hallway ir built"
+        src="/images/works/chill1.png"
+        alt="my first task as a chilliDev"
       />
       <WorkImage
-        src="/images/works/siteWrk2.png"
-        alt="another snippet of the hallway ir built"
+        src="/images/works/chill2.png"
+        alt="another snippet of my first task as a chilliDev"
       />
       <WorkImage
-        src="/images/works/siteWrk3.png"
-        alt="another snippet of the hallway ir built"
+        src="/images/works/chill3.png"
+        alt="another snippet of my first task as a chilliDev"
       />
     </Container>
   </Layout>
