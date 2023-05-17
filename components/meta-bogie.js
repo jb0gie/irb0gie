@@ -70,13 +70,13 @@ const MetaBogie = () => {
       const loader = new GLTFLoader()
       loader.setDRACOLoader(dracoLoader)
       loader.load(
-        '/szb0gn-w-nask.glb',
+        '/szb0gn.glb',
         function (gltf) {
           const model = gltf.scene
           model.position.set(0, 0, 0)
           scene.add(model)
           mixer = new THREE.AnimationMixer(model)
-          mixer.clipAction(gltf.animations[0]).play()
+          mixer.clipAction(gltf.animations[1]).play()
           animate()
           setLoading(false)
         },
