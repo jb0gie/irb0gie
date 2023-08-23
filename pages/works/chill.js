@@ -41,7 +41,7 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
-      <blockquote class="twitter-tweet">
+      <blockquote className="twitter-tweet">
         <p lang="en" dir="ltr">
           📢 Attention, Chiliz Fam! Exciting news - we welcome{' '}
           <a href="https://twitter.com/irb0gie?ref_src=twsrc%5Etfw">@irb0gie</a>{' '}
