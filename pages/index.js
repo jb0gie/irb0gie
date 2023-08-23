@@ -85,12 +85,12 @@ const Page = () => {
                 <PopoverCloseButton />
                 <PopoverHeader>
                   <Heading as="h3" size="md">
-                    𝕤𝕫𝕒𝕓𝕠❍𝕘𝕖𝕟𝕚𝕖
+                    𝕀𝔹
                   </Heading>
                 </PopoverHeader>
                 <PopoverBody>
                   <p>
-                    <code>szb0gn.vrm</code>
+                    <code>irb0gie.vrm</code>
                   </p>
                 </PopoverBody>
               </PopoverContent>
@@ -99,7 +99,7 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h2" variant="section-title">
-            <code>𝕤𝕫𝕒𝕓𝕠❍𝕘𝕖𝕟𝕚𝕖</code>
+            <code>𝕚𝕣𝕓𝟘𝕘𝕚𝕖</code>
           </Heading>
           <br />
           <Paragraph>
@@ -127,7 +127,7 @@ const Page = () => {
           <Box align="center" my={4}>
             <NextLink href="/works" passHref>
               <Button colorScheme="teal">
-                <code>𝕨𝕠𝕣𝕜𝕤</code>
+                <code>𝕎𝕆ℝ𝕂𝕊</code>
               </Button>
             </NextLink>
           </Box>

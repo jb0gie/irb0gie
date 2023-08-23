@@ -17,8 +17,8 @@ const MetaBogie = () => {
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
-  const [target] = useState(new THREE.Vector3(0, 1.5, 0))
-  const [initialCameraPosition] = useState(new THREE.Vector3(0, 0, 3))
+  const [target] = useState(new THREE.Vector3(0, 3, 0))
+  const [initialCameraPosition] = useState(new THREE.Vector3(0, 0, 18))
   const [scene] = useState(new THREE.Scene())
   const [_controls, setControls] = useState()
 
@@ -61,7 +61,7 @@ const MetaBogie = () => {
       scene.add(ambientLight)
 
       const controls = new OrbitControls(camera, renderer.domElement)
-      controls.autoRotate = true
+      controls.autoRotate = false
       controls.target = target
       setControls(controls)
 
@@ -70,13 +70,18 @@ const MetaBogie = () => {
       const loader = new GLTFLoader()
       loader.setDRACOLoader(dracoLoader)
       loader.load(
-        '/szb0gn.glb',
+        '/IB_anima.glb',
         function (gltf) {
           const model = gltf.scene
           model.position.set(0, 0, 0)
           scene.add(model)
           mixer = new THREE.AnimationMixer(model)
-          mixer.clipAction(gltf.animations[1]).play()
+          const clips = gltf.animations
+          // {/*mixer.clipAction(gltf.animations[0]).play()*/}
+          clips.forEach(function(clip){
+            const action = mixer.clipAction(clip)
+            action.play()
+          })
           animate()
           setLoading(false)
         },
@@ -92,8 +97,9 @@ const MetaBogie = () => {
         req = requestAnimationFrame(animate)
 
         const delta = clock.getDelta()
-
-        mixer.update(delta)
+        
+        if (mixer)
+          mixer.update(delta)
 
         frame = frame <= 100 ? frame + 1 : frame
 

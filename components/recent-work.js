@@ -7,6 +7,7 @@ import mfThumb from '../public/images/works/mf2-logo.png'
 import swagtagThumb from '../public/images/works/swagtag.png'
 import monaThumb from '../public/images/works/monaThumb.png'
 import mv1Thumb from '../public/images/works/mv1thumb.png'
+import s3Thumb from '../public/images/s3.png'
 
 import pendingThumb from '../public/images/works/pending.png'
 export const RecentWork = () => (
@@ -14,10 +15,15 @@ export const RecentWork = () => (
     <Section delay={0.4}>
       <Divider my={6} />
       <Heading as="h3" fontSize={20} mb={4}>
-        ℝ𝕖𝕔𝕖𝕟𝕥 𝕨𝕠𝕣𝕜𝕤
+        ℝ𝔼ℂ𝔼ℕ𝕋
       </Heading>
     </Section>
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section delay={0.5}>
+        <WorkGridItem id="s3" title="𝕤𝟛 𝕟+𝕨" thumbnail={s3Thumb}>
+          Season 3 buildspace hackathon
+        </WorkGridItem>
+      </Section>
       <Section delay={0.5}>
         <WorkGridItem id="namejeff" title="𝕟𝕒𝕞𝕖𝕛𝕖𝕗𝕗" thumbnail={jeffThumb}>
           thought i'd try out <code>astro.dev</code> out.
@@ -45,7 +51,9 @@ export const RecentWork = () => (
       <Section delay={0.7}>
         <WorkGridItem id="swagtag" title="𝕤𝕨𝕒𝕘𝕥𝕒𝕘" thumbnail={swagtagThumb}>
           <del>swagtag - instant domains</del>{' '}
-          <del><pre>then adaptogen</pre></del>{' '}
+          <del>
+            <pre>then adaptogen</pre>
+          </del>{' '}
           <pre>now hyper~bolic</pre>
         </WorkGridItem>
       </Section>

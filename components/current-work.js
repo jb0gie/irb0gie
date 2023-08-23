@@ -9,7 +9,7 @@ export const CurrentWork = () => (
   <>
     <Section delay={0.2}>
       <Heading as="h3" fontSize={20} mb={4}>
-        𝕔𝕦𝕣𝕣𝕖𝕟𝕥 𝕨𝕠𝕣𝕜𝕤
+        ℂ𝕌ℝℝ𝔼ℕ𝕋
       </Heading>
     </Section>
     <SimpleGrid columns={[1, 1, 2]} gap={6}>

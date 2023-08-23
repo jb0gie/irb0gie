@@ -9,7 +9,7 @@ export const PastWork = () => (
     <Section delay={0.4}>
       <Divider my={6} />
       <Heading as="h3" fontSize={20} mb={4}>
-        𝕡𝕒𝕤𝕥 𝕨𝕠𝕣𝕜
+        ℙ𝔸𝕊𝕋
       </Heading>
     </Section>
 

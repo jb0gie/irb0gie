@@ -14,6 +14,5 @@ const Works = () => (
     </Container>
   </Layout>
 )
-
 export default Works
 export { getServerSideProps } from '../components/chakra'
