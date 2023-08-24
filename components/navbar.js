@@ -1,5 +1,6 @@
 import Logo from './logo'
 import NextLink from 'next/link'
+import Image from 'next/image'
 import {
   Container,
   Box,
@@ -87,7 +88,11 @@ const Hyperfy = ({ href, children }) => (
 )
 
 const Support = ({}) => (
-  <a href="https://www.buymeacoffee.com/irb0gie" target="_blank">
+  <a
+    href="https://www.buymeacoffee.com/irb0gie"
+    target="_blank"
+    rel="noreferrer"
+  >
     <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=irb0gie&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" />
   </a>
 )

@@ -107,7 +107,7 @@ const Page = () => {
             creating visually stunning experiences that captivate and engage
             users. I am constantly pushing the boundaries of art and computer
             science, working on a variety of projects within different
-            communities.
+            communities. 
           </Paragraph>
           <br />
           <Paragraph>
