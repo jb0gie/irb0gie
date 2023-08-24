@@ -35,34 +35,61 @@ const LinkItem = ({ href, path, children }) => {
 }
 const Lens = ({ href, children }) => (
   <NextLink href={href} passHref>
-    <Tooltip hasArrow label="Follow me on Lens" bg="gray.300" color="black">
-      <Link p={2}>{children}</Link>
-    </Tooltip>
+    <Link p={2}>
+      <Tooltip hasArrow label="Follow me on Lens" bg="gray.300" color="black">
+        {children}
+      </Tooltip>
+    </Link>
   </NextLink>
 )
 const Mastodon = ({ href, children }) => (
   <NextLink href={href} passHref>
-    <Tooltip hasArrow label="Follow me on Mastodon" bg="gray.300" color="black">
-      <Link p={2} rel="me">
+    <Link p={2} rel="me">
+      <Tooltip
+        hasArrow
+        label="Follow me on Mastodon"
+        bg="gray.300"
+        color="black"
+      >
         {children}
-      </Link>
-    </Tooltip>
+      </Tooltip>
+    </Link>
   </NextLink>
 )
 
 const BlueSky = ({ href, children }) => (
   <NextLink href={href} passHref>
-    <Tooltip hasArrow label="Follow me on BlueSky" bg="gray.300" color="black">
-      <Link p={2}>{children}</Link>
-    </Tooltip>
+    <Link p={2}>
+      <Tooltip
+        hasArrow
+        label="Follow me on BlueSky"
+        bg="gray.300"
+        color="black"
+      >
+        {children}
+      </Tooltip>
+    </Link>
   </NextLink>
 )
 const Hyperfy = ({ href, children }) => (
   <NextLink href={href} passHref>
-    <Tooltip hasArrow label="Visit my Hyperfy World" bg="gray.300" color="black">
-      <Link p={2}>{children}</Link>
-    </Tooltip>
+    <Link p={2}>
+      <Tooltip
+        hasArrow
+        label="Visit my Hyperfy World"
+        bg="gray.300"
+        color="black"
+      >
+        {children}
+      </Tooltip>
+    </Link>
   </NextLink>
+)
+
+const Support = ({}) => (
+  <a href="https://www.buymeacoffee.com/irb0gie" target="_blank">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=irb0gie&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" />
+  </a>
 )
 
 const Navbar = (props) => {
@@ -193,6 +220,7 @@ const Navbar = (props) => {
               />
             </svg>
           </Hyperfy>
+          <Support />
         </Stack>
 
         <Box flex={1} align="right">
