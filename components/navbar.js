@@ -327,15 +327,14 @@ const Navbar = (props) => {
                 {/* <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>𝕡𝕠𝕤𝕥𝕤</MenuItem>
                 </NextLink> */}
-                <MenuItem as={Link} href="https://hyperfy.io/thegame">
-                  ❓ ｈｕｈ　内謁履
-                </MenuItem>
-
                 <MenuItem
                   as={Link}
                   href="https://app.yup.io/account/0x91D4eBb05d3273bdB74Af69c20B826F9E76Ae542"
                 >
                   ｓｏｃｉａｌ　ヒー河
+                </MenuItem>
+                <MenuItem as={Link} href="https://hyperfy.io/thegame">
+                  ❓ ｈｕｈ　内謁履
                 </MenuItem>
               </MenuList>
             </Menu>
