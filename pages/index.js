@@ -98,8 +98,8 @@ const Page = () => {
           </Box>
         </Box>
         <Section delay={0.1}>
-          <Heading as="h2" variant="section-title">
-            <code>𝕚𝕣𝕓𝟘𝕘𝕚𝕖</code>
+          <Heading as="h1" size="lg" fontSize="32px" variant="section-title">
+            <code>@𝕚𝕣𝕓𝟘𝕘𝕚𝕖</code>
           </Heading>
           <br />
           <Paragraph>
@@ -107,7 +107,7 @@ const Page = () => {
             creating visually stunning experiences that captivate and engage
             users. I am constantly pushing the boundaries of art and computer
             science, working on a variety of projects within different
-            communities. 
+            communities.
           </Paragraph>
           <br />
           <Paragraph>
@@ -127,7 +127,9 @@ const Page = () => {
           <Box align="center" my={4}>
             <NextLink href="/works" passHref>
               <Button colorScheme="teal">
-                <code>𝕎𝕆ℝ𝕂𝕊</code>
+                <Heading>
+                  View My &rarr; <code>𝕎𝕆ℝ𝕂𝕊</code>
+                </Heading>
               </Button>
             </NextLink>
           </Box>
