@@ -60,10 +60,10 @@ const MetaBogie = () => {
       const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
       scene.add(ambientLight)
 
-      const controls = new OrbitControls(camera, renderer.domElement)
-      controls.autoRotate = false
-      controls.target = target
-      setControls(controls)
+      // const controls = new OrbitControls(camera, renderer.domElement)
+      // controls.autoRotate = false
+      // controls.target = target
+      // setControls(controls)
 
       const dracoLoader = new DRACOLoader()
       dracoLoader.setDecoderPath('three/examples/js/libs/draco')
@@ -114,9 +114,10 @@ const MetaBogie = () => {
             p.z * Math.cos(rotSpeed) - p.x * Math.sin(rotSpeed)
 
           camera.lookAt(target)
-        } else {
-          controls.update()
         }
+        // else {
+        //   controls.update()
+        // }
 
         renderer.render(scene, camera)
       }

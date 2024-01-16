@@ -47,6 +47,11 @@ export const Collabs = () => (
         </GridItem>
       </Section>
       <Section delay={0.3}>
+        <WorkGridItem id="wonfiddy" title="𝕨𝕠𝕟𝕗𝕚𝕕𝕕𝕪" thumbnail={wonfiddyThumb}>
+          the first <code>#wishmaker</code> &amp; dear fren
+        </WorkGridItem>
+      </Section>
+      <Section delay={0.3}>
         <WorkGridItem id="chiliz" title="ℂ𝕙𝕚𝕝𝕝𝕚𝕟𝕘ℂ𝕙𝕚𝕝𝕚𝕫" thumbnail={chillThumb}>
           The Chillest lab in all the metaverse.
         </WorkGridItem>
@@ -59,11 +64,6 @@ export const Collabs = () => (
       <Section delay={0.3}>
         <WorkGridItem id="md" title="𝕄𝕠𝕝𝕠𝕔𝕙 𝔻𝕚𝕘𝕚𝕥𝕒𝕝" thumbnail={mdThumb}>
           Creating Cross-DAO collaboration in the Meta-Verse
-        </WorkGridItem>
-      </Section>
-      <Section delay={0.3}>
-        <WorkGridItem id="wonfiddy" title="𝕨𝕠𝕟𝕗𝕚𝕕𝕕𝕪" thumbnail={wonfiddyThumb}>
-          the first <code>#wishmaker</code> &amp; dear fren
         </WorkGridItem>
       </Section>
       <Section delay={0.3}>
