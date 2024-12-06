@@ -33,32 +33,32 @@ const Posts = () => (
           <GridItem
             title="𝕄𝕪 𝔸𝕧𝕒𝕥𝕒𝕣'𝕤 𝕖𝕧𝕠𝕝𝕦𝕥𝕚𝕠𝕟"
             thumbnail={lensTube1}
-            href="https://lenstube.xyz/watch/0xb80e-0x0778"
+            href="https://tape.xyz/watch/0xb80e-0x0778"
           />
           <GridItem
             title="🍝𝕤𝕡𝕒𝕘🍲𝕤𝕠𝕦𝕡"
             thumbnail={lensTube2}
-            href="https://lenstube.xyz/watch/0xb80e-0x091a"
+            href="https://tape.xyz/watch/0xb80e-0x091a"
           />
           <GridItem
             title="𝕡𝕣𝕖𝕧 𝕠𝕟 𝕥𝕙𝕖 ℂ𝕙𝕚𝕝𝕝𝕚𝕟𝕘ℂ𝕙𝕚𝕝𝕝𝕚𝕫 𝕤𝕖𝕣𝕧𝕖𝕣"
             thumbnail={lensTube3}
-            href="https://lenstube.xyz/watch/0xb80e-0x08ab"
+            href="https://tape.xyz/watch/0xb80e-0x08ab"
           />
           <GridItem
             title="𝕒𝕟𝕠𝕥𝕙𝕖𝕣 #𝕓𝟛𝕕 𝕥𝕚𝕞𝕖𝕝𝕒𝕡𝕤𝕖"
             thumbnail={lensTube4}
-            href="https://lenstube.xyz/watch/0xb80e-0x09f0"
+            href="https://tape.xyz/watch/0xb80e-0x09f0"
           />
           <GridItem
             title="#ℂ𝕙𝕚𝕝𝕝𝕚𝕟𝕘ℂ𝕙𝕚𝕝𝕚𝕫 #𝔹𝔽ℙ #𝔹𝕚𝕘𝔽𝕒𝕞𝕚𝕝𝕪ℙ𝕚𝕔"
             thumbnail={lensTube5}
-            href="https://lenstube.xyz/watch/0xb80e-0x0add"
+            href="https://tape.xyz/watch/0xb80e-0x0add"
           />
           <GridItem
             title="𝕙𝕪𝕡𝕖𝕣𝕗𝕪.𝕚𝕠/𝕔𝕙𝕒𝕞𝕕𝕦𝕟𝕖𝕤"
             thumbnail={lensTube6}
-            href="https://lenstube.xyz/watch/0xb80e-0x0add"
+            href="https://tape.xyz/watch/0xb80e-0x0add"
           />
         </SimpleGrid>
       </Section>

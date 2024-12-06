@@ -2,12 +2,13 @@ import { Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from './section'
 import { WorkGridItem } from './grid-item'
 import kinThumb from '../public/images/works/kin.png'
-import jeffThumb from '../public/images/works/jeff.png'
+// import jeffThumb from '../public/images/works/jeff.png'
 import mfThumb from '../public/images/works/mf2-logo.png'
 import swagtagThumb from '../public/images/works/swagtag.png'
 import monaThumb from '../public/images/works/monaThumb.png'
 import mv1Thumb from '../public/images/works/mv1thumb.png'
 import s3Thumb from '../public/images/s3.png'
+
 
 import pendingThumb from '../public/images/works/pending.png'
 export const RecentWork = () => (
@@ -19,16 +20,17 @@ export const RecentWork = () => (
       </Heading>
     </Section>
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      
       <Section delay={0.5}>
         <WorkGridItem id="s3" title="𝕤𝟛 𝕟+𝕨" thumbnail={s3Thumb}>
           Season 3 buildspace hackathon
         </WorkGridItem>
       </Section>
-      <Section delay={0.5}>
+      {/* <Section delay={0.5}>
         <WorkGridItem id="namejeff" title="𝕟𝕒𝕞𝕖𝕛𝕖𝕗𝕗" thumbnail={jeffThumb}>
           thought i'd try out <code>astro.dev</code> out.
         </WorkGridItem>
-      </Section>
+      </Section> */}
       <Section delay={0.5}>
         <WorkGridItem id="kin" title="𝕌𝕣𝕓á𝕟𝕚𝕜𝕒" thumbnail={kinThumb}>
           a propaganda machine for the <code>crypto-commons</code>.

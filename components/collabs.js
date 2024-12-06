@@ -10,6 +10,7 @@ import chillThumb from '../public/images/cc.png'
 import howieThumb from '../public/images/howie.png'
 import evoThumb from '../public/images/evo.png'
 import lanthumb from '../public/images/lan.png'
+import thirdThumb from '../public/images/third.png'
 export const Collabs = () => (
   <>
     <Section delay={0.2}>
@@ -19,6 +20,18 @@ export const Collabs = () => (
       </Heading>
     </Section>
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section delay={0.3}>
+        <WorkGridItem
+          id="thirdplanet"
+          title="𝕋𝕙𝕚𝕣𝕕 ℙ𝕝𝕒𝕟𝕖𝕥 𝕊𝕥𝕦𝕕𝕚𝕠"
+          thumbnail={thirdThumb}
+        ></WorkGridItem>
+      </Section>
+      <Section delay={0.3}>
+        <WorkGridItem id="chiliz" title="ℂ𝕙𝕚𝕝𝕝𝕚𝕟𝕘ℂ𝕙𝕚𝕝𝕚𝕫" thumbnail={chillThumb}>
+          The Chillest lab in all the metaverse.
+        </WorkGridItem>
+      </Section>
       <Section delay={0.3}>
         <GridItem
           href="https://howieduhzit.best"
@@ -39,7 +52,7 @@ export const Collabs = () => (
       </Section>
       <Section>
         <GridItem
-          href="https://lenster.xyz/u/teknopath"
+          href="https://hey.xyz/u/teknopath"
           title="𝕥𝕖𝕜𝕟𝕠𝕡𝕒𝕥𝕙"
           thumbnail={lanthumb}
         >
@@ -49,11 +62,6 @@ export const Collabs = () => (
       <Section delay={0.3}>
         <WorkGridItem id="wonfiddy" title="𝕨𝕠𝕟𝕗𝕚𝕕𝕕𝕪" thumbnail={wonfiddyThumb}>
           the first <code>#wishmaker</code> &amp; dear fren
-        </WorkGridItem>
-      </Section>
-      <Section delay={0.3}>
-        <WorkGridItem id="chiliz" title="ℂ𝕙𝕚𝕝𝕝𝕚𝕟𝕘ℂ𝕙𝕚𝕝𝕚𝕫" thumbnail={chillThumb}>
-          The Chillest lab in all the metaverse.
         </WorkGridItem>
       </Section>
       <Section delay={0.3}>
